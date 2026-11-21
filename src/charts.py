@@ -113,12 +113,12 @@ def dashboard(m):
     keep = ["industry", "financial", "firms", "market_cap", "revenue", "ebitda", "net_income", "ev_ebitda", "ev_sales", "pe",
             "pb", "gross_margin", "operating_margin", "net_margin", "roe", "roic", "cost_of_capital", "cost_of_equity",
             "spread", "rel_multiple", "rev_cagr_5y", "eps_growth_next5", "beta", "debt_weight", "share_of_market_cap",
-            "ranks", "score", "verdict", "companies", "deals", "size_rank"]
+            "ranks", "score", "verdict", "companies", "recent_deals", "market_size", "size_rank"]
     data = {"featured": m["featured"], "summary": m["summary"],
             "inds": [{k: r[k] for k in keep} for r in m["industries"]]}
     for r in data["inds"]:
         r["companies"] = [{k: c[k] for k in ("ticker", "name", "market_cap_usd_bn", "pe", "house_rating")} for c in r["companies"]]
-        r["deals"] = [{k: d[k] for k in ("acquirer", "target", "announced", "equity_value_m", "premium")} for d in r["deals"]]
+        r["recent_deals"] = [{k: d[k] for k in ("acquirer", "target", "date", "value_usd_bn", "value_text", "url")} for d in r["recent_deals"]]
     html = (ROOT / "src" / "dashboard_template.html").read_text(encoding="utf-8")
     html = html.replace("__DATA__", json.dumps(data, default=float)).replace("__N__", str(len(m["industries"])))
     (ROOT / "dashboard.html").write_text(html, encoding="utf-8")

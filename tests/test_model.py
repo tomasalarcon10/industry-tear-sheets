@@ -63,3 +63,37 @@ def test_rank_definition():
 def test_companies_and_deals_attached():
     assert sum(len(r["companies"]) for r in INDS) == 85
     assert sum(len(r["deals"]) for r in INDS) == 43
+
+
+RECENT = [json.loads(l) for l in open(ROOT / "data" / "recent_deals.jsonl") if l.strip()]
+MSIZE = [json.loads(l) for l in open(ROOT / "data" / "market_size.jsonl") if l.strip()]
+NAMES = {r["industry"] for r in INDS}
+
+
+def test_every_industry_has_a_sourced_recent_deal():
+    assert all(r["recent_deals"] for r in INDS)
+    assert sum(len(r["recent_deals"]) for r in INDS) == len(RECENT)
+
+
+@pytest.mark.parametrize("d", RECENT, ids=lambda d: f"{d['industry']}|{d['target']}"[:60])
+def test_recent_deal_record(d):
+    assert d["industry"] in NAMES
+    assert d["url"].startswith("https://")
+    assert d["date"][:4] in ("2025", "2026")
+    assert d["acquirer"] and d["target"]
+    assert d["value_usd_bn"] is None or d["value_usd_bn"] > 0
+
+
+def test_recent_deals_sorted_by_value():
+    for r in INDS:
+        v = [d["value_usd_bn"] or 0 for d in r["recent_deals"]]
+        assert v == sorted(v, reverse=True)
+
+
+def test_market_size_records():
+    assert len({m["industry"] for m in MSIZE}) == len(MSIZE)
+    for m in MSIZE:
+        assert m["industry"] in NAMES and m["url"].startswith("https://")
+        assert m["value_usd_bn"] > 0 and m["year"] >= 2025 and m["publisher"] in ("IBISWorld", "Gartner", "SEMI")
+    assert M["summary"]["with_market_size"] == len(MSIZE)
+    assert sum(r["market_size"] is not None for r in INDS) == len(MSIZE)

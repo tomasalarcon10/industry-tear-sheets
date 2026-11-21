@@ -6,6 +6,7 @@ Writes reports/<industry>.pdf and reports/Industry_Tear_Sheets_Book.pdf.
 """
 from __future__ import annotations
 
+from xml.sax.saxutils import escape
 import json
 import re
 import sys
@@ -145,6 +146,30 @@ def map_chart(r, allr, w=3.6, h=2.9):
     return img(fig, w, h)
 
 
+
+def usd(v):
+    if v is None:
+        return "n/d"
+    if v >= 1000:
+        return f"${v / 1000:.1f}tr"
+    if v >= 1:
+        return f"${v:,.1f}bn"
+    return f"${v * 1000:,.0f}m"
+
+
+def dom(url):
+    from urllib.parse import urlparse
+    parts = urlparse(url).netloc.lower().split(".")
+    keep = 3 if len(parts) >= 3 and parts[-2] in ("co", "com", "org") and len(parts[-1]) == 2 else 2
+    return ".".join(parts[-keep:])
+
+
+def msize_text(r):
+    ms = r["market_size"]
+    if ms is None:
+        return "not available in the sources reviewed"
+    return escape(f"{usd(ms['value_usd_bn'])} ({ms['year']}, {ms['publisher']}: {ms['segment']})")
+
 def bullets(r, m):
     s = m["summary"]
     fin = r["financial"]
@@ -156,7 +181,7 @@ def bullets(r, m):
            f"ROIC {pc(r['roic'])} vs a {pc(r['cost_of_capital'])} cost of capital")
     out.append(f"<b>{r['verdict']}.</b> {ret} (spread {pc(r['spread'], sign=True)}); {mult}.")
     out.append(f"<b>Size.</b> {int(r['firms'])} US-listed firms, {bn(r['market_cap'])} of market cap "
-               f"({pc(r['share_of_market_cap'])} of the market, #{r['size_rank']} of 94), {bn(r['revenue'])} of revenue.")
+               f"({pc(r['share_of_market_cap'])} of the market, #{r['size_rank']} of 94), {bn(r['revenue'])} of revenue. Global market: {msize_text(r)}.")
     out.append(f"<b>Growth.</b> Revenue {pc(r['rev_cagr_5y'])} a year over five years; analysts expect EPS growth of "
                f"{pc(r['eps_growth_next5'])} a year for the next five.")
     out.append(f"<b>Score {r['score']:.0f}/100</b>, #{r['score_rank']} of {sum(x['score'] is not None for x in m['industries'])} industries "
@@ -194,7 +219,9 @@ def story(r, m):
     size = [["Size", ""], ["Firms", f"{int(r['firms'])}"], ["Market cap", bn(r["market_cap"])],
             ["Enterprise value", bn(r["ev"])], ["Revenue", bn(r["revenue"])], ["EBITDA", bn(r["ebitda"])],
             ["Net income", bn(r["net_income"])], ["Share of US market cap", pc(r["share_of_market_cap"])],
-            ["Average company age", f"{r['age']:.0f} years"]]
+            ["Average company age", f"{r['age']:.0f} years"],
+            ["Global market size", (f"{usd(r['market_size']['value_usd_bn'])} ({r['market_size']['year']}, "
+                                    f"{r['market_size']['publisher']})") if r["market_size"] else "not available"]]
     fin = r["financial"]
     val = [["Valuation", "Industry", "Market", "Rank*"],
            ["EV/EBITDA", "n/m" if fin else xm(r["ev_ebitda"]), xm(mk["ev_ebitda"]) if not fin else "n/m", ""],
@@ -238,13 +265,13 @@ def story(r, m):
     ct = tbl(comp, [1.75 * inch, 0.6 * inch, 0.45 * inch, 0.45 * inch])
     ct.setStyle(TableStyle([("TEXTCOLOR", (3, i), (3, i), colors.HexColor(RC.get(row[3], "#333")))
                             for i, row in enumerate(comp[1:], 1) if row[3] in RC]))
-    dl = [["Deals by my universe (SEC filings)", "Year", "Equity", "Premium"]]
-    for d in r["deals"][:5]:
-        dl.append([Paragraph(f"{d['acquirer']} / {d['target']}", S["cell"]), d["announced"][:4], bn(d["equity_value_m"]),
-                   pc(d["premium"], 0)])
+    dl = [["Recent deals, 2025-2026", "Date", "Value", "Source"]]
+    for d in r["recent_deals"][:3]:
+        dl.append([Paragraph(escape(f"{d['acquirer']} / {d['target']}"), S["cell"]), d["date"], usd(d["value_usd_bn"]) if d["value_usd_bn"] else (d.get("value_text") or "n/d"),
+                   Paragraph(dom(d["url"]), S["small"])])
     if len(dl) == 1:
-        dl.append([Paragraph("No deal in the 43-deal database.", S["cell"]), "", "", ""])
-    right = Table([[ct], [Spacer(1, 3)], [tbl(dl, [1.75 * inch, 0.4 * inch, 0.6 * inch, 0.5 * inch])]],
+        dl.append([Paragraph("No deal found in the sources reviewed.", S["cell"]), "", "", ""])
+    right = Table([[ct], [Spacer(1, 3)], [tbl(dl, [1.55 * inch, 0.45 * inch, 0.5 * inch, 0.75 * inch])]],
                   style=[("LEFTPADDING", (0, 0), (-1, -1), 0), ("TOPPADDING", (0, 0), (-1, -1), 0)])
     st.append(Table([[map_chart(r, m["industries"]), right]], colWidths=[3.75 * inch, 3.35 * inch],
                     style=[("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0)]))
@@ -254,8 +281,11 @@ def story(r, m):
         "beta rank higher). Aggregates: sums over the industry's firms (market cap / net income, and so on). Market = "
         f"{'total US market' if fin else 'US market without financials'}. Sources: Damodaran Online, industry data for "
         f"US firms, {m['data_date']} (pages.stern.nyu.edu/~adamodar: DollarUS, wacc, histgr); companies and house ratings "
-        "from the comparable-companies and equity-research projects; deals from the precedent-transactions project "
-        "(github.com/tomasalarcon10). Illustrative analysis, not investment advice.", S["small"]))
+        "from the comparable-companies and equity-research projects (github.com/tomasalarcon10); recent deals from "
+        "company releases, filings and press coverage (largest by value, n/d = not disclosed; full list and URLs in "
+        "data/recent_deals.jsonl); global market size from "
+        f"{r['market_size']['publisher'] + ' (' + dom(r['market_size']['url']) + ')' if r['market_size'] else 'no source found'}"
+        ". Illustrative analysis, not investment advice.", S["small"]))
     return st
 
 

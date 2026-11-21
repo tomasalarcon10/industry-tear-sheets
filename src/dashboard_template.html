@@ -34,7 +34,7 @@
 <body>
 <header>
   <h1>Industry tear sheets: __N__ US industries, one screen each</h1>
-  <div class="sub">Is the industry earning more than its cost of capital, and is the market already paying for it? Damodaran industry data for US-listed firms (January 2026), with the companies and deals from my universe. Re-weight the score pillars to re-rank every industry.</div>
+  <div class="sub">Is the industry earning more than its cost of capital, and is the market already paying for it? Damodaran industry data for US-listed firms (January 2026), with my 85-company universe, cited global market sizes and recent 2025-2026 deals. Re-weight the score pillars to re-rank every industry.</div>
 </header>
 <div class="controls">
   <div><label>Industry</label><select id="ind"></select></div>
@@ -53,19 +53,21 @@
 <div class="row">
   <div class="card"><h3>Valuation and returns</h3><div id="t1"></div></div>
   <div class="card"><h3>Rank among industries (100 = best)</h3><div id="p1" style="height:200px"></div><div id="t2"></div></div>
-  <div class="card"><h3>Companies and deals from my universe</h3><div id="t3"></div></div>
+  <div class="card"><h3>Companies, market size and recent deals</h3><div id="t3"></div></div>
 </div>
 <div class="row" style="grid-template-columns:1.3fr 1fr">
   <div class="card"><h3>All industries: return spread vs relative multiple (click a bubble)</h3><div id="p2" style="height:470px"></div></div>
   <div class="card"><h3>Ranking under the current weights</h3><div id="p3" style="height:470px"></div></div>
 </div>
-<footer>Return spread = ROIC (after tax) minus cost of capital; for financial industries ROE minus cost of equity. Relative multiple = EV/EBITDA over the median non-financial industry (P/B over the median financial industry for financials). Ranks: share of industries with a strictly lower value (reversed for multiple and beta). Verdicts: Quality at a discount (spread > 0, multiple < 1x), Quality, priced for it (spread > 0, multiple >= 1x), Cheap for a reason, Expensive without returns. Source: Damodaran Online, industry data for US firms, January 2026; companies, house ratings and deals from my comparable-companies, equity-research and precedent-transactions projects. Illustrative, not investment advice.</footer>
+<footer>Return spread = ROIC (after tax) minus cost of capital; for financial industries ROE minus cost of equity. Relative multiple = EV/EBITDA over the median non-financial industry (P/B over the median financial industry for financials). Ranks: share of industries with a strictly lower value (reversed for multiple and beta). Verdicts: Quality at a discount (spread > 0, multiple < 1x), Quality, priced for it (spread > 0, multiple >= 1x), Cheap for a reason, Expensive without returns. Source: Damodaran Online, industry data for US firms, January 2026; companies and house ratings from my comparable-companies and equity-research projects; global market sizes from IBISWorld, Gartner and SEMI; recent deals from company releases, filings and press coverage (links in the table). Illustrative, not investment advice.</footer>
 <script>
 const D=__DATA__,$=id=>document.getElementById(id),I=D.inds;
 const T="#f0efec",T2="#c3c2b7",MU="#8a8980",GR="#3a3936",CARD="#222220";
 const VC={"Quality at a discount":"#199e70","Quality, priced for it":"#3987e5","Cheap for a reason":"#c98500","Expensive without returns":"#e66767","Not enough data":"#8a8980"};
 const RC={Buy:"#199e70",Hold:"#c98500",Sell:"#e66767"};
 const pc=(x,s)=>x==null?"n/a":(s&&x>=0?"+":"")+(x*100).toFixed(1)+"%",xm=x=>x==null?"n/m":x.toFixed(1)+"x";
+const usd=v=>v==null?"n/d":v>=1000?"$"+(v/1000).toFixed(1)+"tr":v>=1?"$"+v.toFixed(1)+"bn":"$"+(v*1000).toFixed(0)+"m";
+const esc=t=>String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;");
 const bn=m=>m==null?"n/a":Math.abs(m)>=1e6?"$"+(m/1e6).toFixed(2)+"tn":Math.abs(m)>=1e3?"$"+(m/1e3).toFixed(1)+"bn":"$"+m.toFixed(0)+"m";
 const P=["returns","growth","value","risk"];
 function score(r,w){let s=0,n=0;P.forEach((k,i)=>{if(r.ranks[k]!=null){s+=w[i]*r.ranks[k];n+=w[i]}});return n>0?100*s/n:null}
@@ -88,7 +90,8 @@ function render(){
     lay({margin:{l:70,r:30,t:5,b:25},xaxis:AX({type:"linear",range:[0,110]}),yaxis:AX({type:"category",autorange:"reversed"})}),{displayModeBar:false,responsive:true});
   $("t2").innerHTML="";
   $("t3").innerHTML=(r.companies.length?`<table><tr><th>Company</th><th>Mkt cap</th><th>P/E</th><th>House</th></tr>${r.companies.map(c=>`<tr><td>${c.name}</td><td>${c.market_cap_usd_bn?"$"+c.market_cap_usd_bn.toFixed(0)+"bn":"n/a"}</td><td>${c.pe&&c.pe>0?c.pe.toFixed(1)+"x":"n/m"}</td><td style="color:${RC[c.house_rating]}">${c.house_rating}</td></tr>`).join("")}</table>`:"<p class='sub'>None of the 85 companies is in this industry.</p>")+
-    (r.deals.length?`<table style="margin-top:10px"><tr><th>Deal</th><th>Year</th><th>Equity</th><th>Premium</th></tr>${r.deals.map(d=>`<tr><td>${d.acquirer} / ${d.target}</td><td>${d.announced.slice(0,4)}</td><td>${bn(d.equity_value_m)}</td><td>${pc(d.premium)}</td></tr>`).join("")}</table>`:"<p class='sub'>No deal in the 43-deal database.</p>");
+    `<p class="sub" style="margin-top:10px">Global market size: ${r.market_size?`${usd(r.market_size.value_usd_bn)} (${r.market_size.year}, <a href="${r.market_size.url}" target="_blank" rel="noopener">${r.market_size.publisher}</a>: ${r.market_size.segment})`:"not available in the sources reviewed"}</p>`+
+    (r.recent_deals.length?`<table style="margin-top:6px"><tr><th>Recent deal, 2025-2026</th><th>Date</th><th>Value</th><th>Source</th></tr>${r.recent_deals.map(d=>`<tr><td>${esc(d.acquirer)} / ${esc(d.target)}</td><td>${d.date}</td><td>${d.value_usd_bn?usd(d.value_usd_bn):(d.value_text||"n/d")}</td><td><a href="${d.url}" target="_blank" rel="noopener">link</a></td></tr>`).join("")}</table>`:"<p class='sub'>No deal found in the sources reviewed.</p>");
   const pts=I.filter(x=>x.spread!=null&&x.rel_multiple!=null);
   Plotly.react("p2",Object.keys(VC).map(v=>{const sub=pts.filter(x=>x.verdict===v);return {type:"scatter",mode:"markers",name:v,x:sub.map(x=>Math.min(Math.max(x.rel_multiple,0.1),5)),y:sub.map(x=>Math.min(Math.max(x.spread,-0.25),0.6)*100),text:sub.map(x=>x.industry),
     marker:{color:VC[v],size:sub.map(x=>6+30*Math.sqrt(x.market_cap/7.9e6)),opacity:sub.map(x=>x===r?1:0.6),line:{color:sub.map(x=>x===r?T:CARD),width:sub.map(x=>x===r?3:1)}},hovertemplate:"%{text}<br>%{x:.2f}x | %{y:+.1f} pp<extra></extra>"}}),

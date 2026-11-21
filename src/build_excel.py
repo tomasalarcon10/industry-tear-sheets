@@ -3,7 +3,9 @@
 excel/Industry_<name>.xlsx (one per industry)
 - Tear sheet  the one-pager in cells; type any industry name in B2 and every figure updates (INDEX/MATCH)
 - Data        Damodaran inputs for all 94 industries (blue) and every derived metric, rank, score and verdict (formulas)
-excel/Industry_Database.xlsx: the same Data sheet with every industry, sorted by score.
+- Deals & market  recent 2025-2026 deals for the industry and its global market size, each with its source URL (inputs),
+                  plus count / total / largest disclosed value (formulas)
+excel/Industry_Database.xlsx: the same Data sheet with every industry, plus every recent deal and market size.
 """
 from __future__ import annotations
 
@@ -151,6 +153,62 @@ def tear_sheet(ws, name):
     return out
 
 
+DEAL_COLS = [("Industry", 14), ("Acquirer", 30), ("Target", 34), ("Date", 9), ("Value ($bn)", 11),
+             ("Value as reported (non-US$)", 18), ("Note", 40), ("Source URL", 60)]
+
+
+def deals_sheet(ws, rows, ms_rows, title):
+    ws["A1"] = title
+    ws["A1"].font = F_T
+    ws["A2"] = ("Recent deals (announced or completed 2025-2026) from company releases, filings and press coverage; "
+                "blank value = not disclosed. Market size: global, latest year published.")
+    ws["A2"].font = F_S
+    for j, (h, w) in enumerate(DEAL_COLS, 1):
+        c = ws.cell(4, j, h)
+        c.font, c.fill = F_H, FILL_H
+        ws.column_dimensions[L(j)].width = w
+    for i, d in enumerate(rows, 5):
+        for j, k in enumerate(("industry", "acquirer", "target", "date", "value_usd_bn", "value_text", "note", "url"), 1):
+            c = ws.cell(i, j, d[k])
+            c.font = F_IN
+        ws.cell(i, 5).number_format = "#,##0.000"
+        ws.cell(i, 8).hyperlink = d["url"]
+    last = 4 + max(len(rows), 1)
+    out = {}
+    base = last + 2
+    lab = [("Deals listed", f"=COUNTA(B5:B{last})", "0"),
+           ("Deals with disclosed value", f"=COUNT(E5:E{last})", "0"),
+           ("Total disclosed value ($bn)", f"=SUM(E5:E{last})", "#,##0.000"),
+           ("Largest deal ($bn)", f'=IF(COUNT(E5:E{last})=0,"",MAX(E5:E{last}))', "#,##0.000"),
+           ("Deals of $1bn or more", f'=COUNTIF(E5:E{last},">=1")', "0")]
+    for k, (t, f, fmt) in enumerate(lab):
+        ws.cell(base + k, 2, t).font = F_B
+        c = ws.cell(base + k, 3, f)
+        c.font, c.number_format, c.fill = F_CALC, fmt, FILL_KEY
+        out[t] = f"'{ws.title}'!C{base + k}"
+    mb = base + len(lab) + 1
+    for j, h in enumerate(("Industry", "Global market size ($bn)", "Year", "Publisher", "Segment measured", "Source URL"), 1):
+        c = ws.cell(mb, j, h)
+        c.font, c.fill = F_H, FILL_H
+    for i, x in enumerate(ms_rows, mb + 1):
+        vals = (x["industry"], x["value_usd_bn"], x["year"], x["publisher"], x["segment"], x["url"])
+        for j, v in enumerate(vals, 1):
+            ws.cell(i, j, v).font = F_IN
+        ws.cell(i, 2).number_format = "#,##0.0"
+        if x["url"]:
+            ws.cell(i, 6).hyperlink = x["url"]
+    out["Market size ($bn)"] = f"'{ws.title}'!B{mb + 1}"
+    return out
+
+
+def ms_row(r):
+    ms = r["market_size"]
+    if ms:
+        return {"industry": r["industry"], **{k: ms[k] for k in ("value_usd_bn", "year", "publisher", "segment", "url")}}
+    return {"industry": r["industry"], "value_usd_bn": None, "year": None, "publisher": "not available",
+            "segment": "no reliable global figure found in the sources reviewed", "url": None}
+
+
 def run():
     m = json.load(open(ROOT / "outputs" / "metrics.json"))
     inds = sorted(m["industries"], key=lambda r: r["industry"].lower())
@@ -164,11 +222,15 @@ def run():
         ds = wb.create_sheet("Data")
         data_sheet(ds, inds, total_mc)
         cells[r["industry"]] = tear_sheet(ts, r["industry"])
+        dm = wb.create_sheet("Deals & market")
+        cells[r["industry"]].update(deals_sheet(dm, r["recent_deals"], [ms_row(r)], f"{r['industry']}: recent deals and market size"))
         wb.save(XL / f"Industry_{slug(r['industry'])}.xlsx")
     wb = Workbook()
     ds = wb.active
     ds.title = "Data"
     data_sheet(ds, inds, total_mc)
+    deals_sheet(wb.create_sheet("Deals & market"), [d for r in inds for d in r["recent_deals"]], [ms_row(r) for r in inds],
+                "All industries: recent deals and market size")
     wb.save(XL / "Industry_Database.xlsx")
     json.dump(cells, open(ROOT / "outputs" / "excel_cells.json", "w"), indent=1)
     print("built", len(inds) + 1)

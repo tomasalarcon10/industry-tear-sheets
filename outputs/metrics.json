@@ -98,6 +98,10 @@
   ],
   "with_universe_companies": 32,
   "with_deals": 17,
+  "recent_deals": 119,
+  "with_recent_deals": 94,
+  "recent_deals_above_1bn": 102,
+  "with_market_size": 47,
   "largest": [
    [
     "Semiconductor",
@@ -264,7 +268,27 @@
    "size_rank": 75,
    "score_rank": 22,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Advertising",
+     "acquirer": "Omnicom",
+     "target": "Interpublic Group",
+     "value_usd_bn": 13.25,
+     "date": "2025-11",
+     "note": "completed 26 Nov 2025",
+     "url": "https://www.omc.com/newsroom/omnicom-completes-acquisition-of-interpublic-forming-the-worlds-leading-marketing-and-sales-company-built-for-intelligent-growth-in-the-next-era/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Advertising",
+    "value_usd_bn": 445.3,
+    "year": 2026,
+    "segment": "Global Advertising Agencies",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-advertising-agencies/2030/"
+   }
   },
   {
    "industry": "Aerospace/Defense",
@@ -360,7 +384,20 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/79958/000119312515341940/d54109ddefm14a.htm ; https://www.sec.gov/Archives/edgar/data/79958/000095015715000896/ex99-5.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Aerospace/Defense",
+     "acquirer": "Thoma Bravo",
+     "target": "Boeing digital aviation solutions (carve-out)",
+     "value_usd_bn": 10.6,
+     "date": "2025",
+     "note": "2025's largest A&D deal",
+     "url": "https://www.airforce-technology.com/sponsored/aerospace-and-defense-ma-activity-strategic-positioning-amid-robust-growth/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Air Transport",
@@ -415,7 +452,27 @@
    "size_rank": 64,
    "score_rank": 31,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Air Transport",
+     "acquirer": "Allegiant",
+     "target": "Sun Country Airlines",
+     "value_usd_bn": 1.5,
+     "date": "2026-01",
+     "note": "cash-and-stock merger",
+     "url": "https://www.travelmarketreport.com/air/articles/allegiant-and-sun-country-complete-1-5-billion-merger",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Air Transport",
+    "value_usd_bn": 837.0,
+    "year": 2026,
+    "segment": "Global Airlines",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-airlines/1560/"
+   }
   },
   {
    "industry": "Apparel",
@@ -484,7 +541,37 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Apparel",
+     "acquirer": "Bluestar Alliance",
+     "target": "Dickies (from VF Corp.)",
+     "value_usd_bn": 0.6,
+     "date": "2025-09",
+     "note": "",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    },
+    {
+     "industry": "Apparel",
+     "acquirer": "Prada",
+     "target": "Versace",
+     "value_usd_bn": null,
+     "date": "2025-04",
+     "note": "EUR 1.25bn",
+     "url": "https://mergersandacquisitions.net/insights/fashion-apparel-mergers-and-acquisitions",
+     "value_text": "EUR 1.25bn"
+    }
+   ],
+   "market_size": {
+    "industry": "Apparel",
+    "value_usd_bn": 507.9,
+    "year": 2026,
+    "segment": "Global Apparel Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-apparel-manufacturing/470/"
+   }
   },
   {
    "industry": "Auto & Truck",
@@ -579,7 +666,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Auto & Truck",
+     "acquirer": "Geely Automobile",
+     "target": "Zeekr (remaining shares)",
+     "value_usd_bn": 2.4,
+     "date": "2025",
+     "note": "",
+     "url": "https://www.akm.ru/eng/news/china-s-geely-automobile-acquires-full-ownership-of-zeekr-for-2-4-billion/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Auto & Truck",
+    "value_usd_bn": 251.3,
+    "year": 2026,
+    "segment": "Global Heavy-Duty Truck Manufacturing (trucks only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-heavy-duty-truck-manufacturing/1002/"
+   }
   },
   {
    "industry": "Auto Parts",
@@ -634,7 +741,27 @@
    "size_rank": 77,
    "score_rank": 44,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Auto Parts",
+     "acquirer": "American Axle (AAM)",
+     "target": "Dowlais",
+     "value_usd_bn": 1.44,
+     "date": "2025-01",
+     "note": "cash and stock",
+     "url": "https://www.aam.com/media/story/aam-announces-combination-with-dowlais",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Auto Parts",
+    "value_usd_bn": 2700.0,
+    "year": 2026,
+    "segment": "Global Auto Parts & Accessories Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-auto-parts-accessories-manufacturing/1010/"
+   }
   },
   {
    "industry": "Bank (Money Center)",
@@ -963,7 +1090,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Bank (Money Center)",
+     "acquirer": "Capital One",
+     "target": "Discover Financial",
+     "value_usd_bn": 35.3,
+     "date": "2025",
+     "note": "approved April 2025, closed 2025",
+     "url": "https://www.bankingdive.com/news/fifth-third-acquire-buy-comerica-10-9-billion/802000/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Bank (Money Center)",
+    "value_usd_bn": 4100.0,
+    "year": 2026,
+    "segment": "Global Commercial Banks",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-commercial-banks/1750/"
+   }
   },
   {
    "industry": "Banks (Regional)",
@@ -1018,7 +1165,47 @@
    "size_rank": 24,
    "score_rank": 14,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Banks (Regional)",
+     "acquirer": "Fifth Third",
+     "target": "Comerica",
+     "value_usd_bn": 10.9,
+     "date": "2025-10",
+     "note": "all stock; closed Feb 2026",
+     "url": "https://www.bankingdive.com/news/fifth-third-acquire-buy-comerica-10-9-billion/802000/",
+     "value_text": null
+    },
+    {
+     "industry": "Banks (Regional)",
+     "acquirer": "Pinnacle Financial",
+     "target": "Synovus",
+     "value_usd_bn": 8.6,
+     "date": "2025",
+     "note": "",
+     "url": "https://www.americanbanker.com/news/the-five-biggest-bank-m-a-deals-of-2025",
+     "value_text": null
+    },
+    {
+     "industry": "Banks (Regional)",
+     "acquirer": "Huntington Bancshares",
+     "target": "Cadence Bank",
+     "value_usd_bn": 7.4,
+     "date": "2025-10",
+     "note": "all stock",
+     "url": "https://www.investopedia.com/another-multibillion-dollar-bank-merger-just-arrived-today-11837381",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Banks (Regional)",
+    "value_usd_bn": 4100.0,
+    "year": 2026,
+    "segment": "Global Commercial Banks",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-commercial-banks/1750/"
+   }
   },
   {
    "industry": "Beverage (Alcoholic)",
@@ -1073,7 +1260,27 @@
    "size_rank": 81,
    "score_rank": 24,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Beverage (Alcoholic)",
+     "acquirer": "Heineken",
+     "target": "FIFCO beverage and retail businesses",
+     "value_usd_bn": 3.2,
+     "date": "2025-09",
+     "note": "cash",
+     "url": "https://www.reuters.com/business/heineken-buy-fifcos-beverage-retail-businesses-32-billion-2025-09-22/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Beverage (Alcoholic)",
+    "value_usd_bn": 256.8,
+    "year": 2026,
+    "segment": "Global Beer Manufacturing (beer only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-beer-production/390/"
+   }
   },
   {
    "industry": "Beverage (Soft)",
@@ -1142,7 +1349,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Beverage (Soft)",
+     "acquirer": "Keurig Dr Pepper",
+     "target": "JDE Peet's",
+     "value_usd_bn": 18.0,
+     "date": "2025-08",
+     "note": "all cash",
+     "url": "https://www.wsj.com/business/keurig-dr-pepper-near-18-billion-deal-for-jde-peets-33883fe4",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Beverage (Soft)",
+    "value_usd_bn": 242.6,
+    "year": 2026,
+    "segment": "Global Soft Drink & Bottled Water Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-soft-drink-bottled-water-manufacturing/420/"
+   }
   },
   {
    "industry": "Broadcasting",
@@ -1197,7 +1424,20 @@
    "size_rank": 76,
    "score_rank": 6,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Broadcasting",
+     "acquirer": "Nexstar Media Group",
+     "target": "TEGNA",
+     "value_usd_bn": 6.2,
+     "date": "2025-08",
+     "note": "",
+     "url": "https://en.wikipedia.org/wiki/Merger_of_Nexstar_Media_Group_and_Tegna_Inc.",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Brokerage & Investment Banking",
@@ -1293,7 +1533,27 @@
      "consideration": "stock (1.0432 MS per ETFC)",
      "source": "https://www.sec.gov/Archives/edgar/data/1015780/000120677420001849/etfc3750093-defm14a.htm ; https://www.sec.gov/Archives/edgar/data/895421/000095010320003007/dp121635_ex9902.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Brokerage & Investment Banking",
+     "acquirer": "U.S. Bancorp",
+     "target": "BTIG",
+     "value_usd_bn": null,
+     "date": "2026-01",
+     "note": "",
+     "url": "https://ir.usbank.com/news-events/news/news-details/2026/U-S--Bancorp-to-Acquire-BTIG/default.aspx",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Brokerage & Investment Banking",
+    "value_usd_bn": 410.2,
+    "year": 2026,
+    "segment": "Global Investment Banking & Brokerage",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-investment-banking-brokerage/1770/"
+   }
   },
   {
    "industry": "Building Materials",
@@ -1348,7 +1608,20 @@
    "size_rank": 57,
    "score_rank": 71,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Building Materials",
+     "acquirer": "QXO",
+     "target": "Beacon Roofing Supply",
+     "value_usd_bn": 11.0,
+     "date": "2025-03",
+     "note": "including debt; completed Apr 2025",
+     "url": "https://investors.qxo.com/news/news-details/2025/QXO-to-Acquire-Beacon-Roofing-Supply-for-11-Billion/default.aspx",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Business & Consumer Services",
@@ -1403,7 +1676,27 @@
    "size_rank": 30,
    "score_rank": 42,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Business & Consumer Services",
+     "acquirer": "Advent International and Corvex",
+     "target": "Heidrick & Struggles",
+     "value_usd_bn": 1.3,
+     "date": "2025-10",
+     "note": "take-private at $59 per share; closed 10 Dec 2025",
+     "url": "https://www.staffingindustry.com/news/global-daily-news/heidrick-to-go-private-in-deal-that-values-firm-at-13b",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Business & Consumer Services",
+    "value_usd_bn": 1100.0,
+    "year": 2026,
+    "segment": "Global Management Consultants",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-management-consulting/1950/"
+   }
   },
   {
    "industry": "Cable TV",
@@ -1458,7 +1751,27 @@
    "size_rank": 61,
    "score_rank": 1,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Cable TV",
+     "acquirer": "Charter Communications",
+     "target": "Cox Communications",
+     "value_usd_bn": 34.5,
+     "date": "2025-05",
+     "note": "21.9-34.5bn reported",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Cable TV",
+    "value_usd_bn": 966.6,
+    "year": 2026,
+    "segment": "Global Internet Service Providers (broadband proxy)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-internet-service-providers/1716/"
+   }
   },
   {
    "industry": "Chemical (Basic)",
@@ -1527,7 +1840,20 @@
      "street_rating": "Hold"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Chemical (Basic)",
+     "acquirer": "OMV / ADNOC",
+     "target": "Borouge / Borealis (petrochemicals merger)",
+     "value_usd_bn": 60.0,
+     "date": "2025",
+     "note": "",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Chemical (Diversified)",
@@ -1582,7 +1908,20 @@
    "size_rank": 92,
    "score_rank": 68,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Chemical (Diversified)",
+     "acquirer": "Berkshire Hathaway",
+     "target": "OxyChem (from Occidental)",
+     "value_usd_bn": 9.7,
+     "date": "2025-10",
+     "note": "cash; completed Jan 2026",
+     "url": "https://www.oxy.com/news/news-releases/berkshire-hathaway-inc.-to-acquire-oxychem",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Chemical (Specialty)",
@@ -1637,7 +1976,20 @@
    "size_rank": 37,
    "score_rank": 80,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Chemical (Specialty)",
+     "acquirer": "ADNOC (XRG)",
+     "target": "Covestro",
+     "value_usd_bn": null,
+     "date": "2025",
+     "note": "EUR 11.7bn; completed 2025",
+     "url": "https://www.rubbernews.com/company-moves/mergers-acquisitions/rn-adnoc-completes-covestro-acquisition/",
+     "value_text": "EUR 11.7bn"
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Coal & Related Energy",
@@ -1692,7 +2044,27 @@
    "size_rank": 85,
    "score_rank": 90,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Coal & Related Energy",
+     "acquirer": "CONSOL Energy",
+     "target": "Arch Resources (merger of equals: Core Natural Resources)",
+     "value_usd_bn": null,
+     "date": "2025-01",
+     "note": "completed 14 Jan 2025",
+     "url": "https://www.prnewswire.com/news-releases/successful-completion-of-merger-creating-core-natural-resources-302350535.html",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Coal & Related Energy",
+    "value_usd_bn": 1600.0,
+    "year": 2026,
+    "segment": "Global Coal Mining",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-coal-mining/170/"
+   }
   },
   {
    "industry": "Computer Services",
@@ -1774,7 +2146,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Computer Services",
+     "acquirer": "Capgemini",
+     "target": "WNS",
+     "value_usd_bn": 3.3,
+     "date": "2025-07",
+     "note": "completed Oct 2025",
+     "url": "https://www.crn.com/news/channel-news/2025/the-10-biggest-tech-m-a-deals-of-2025",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Computer Services",
+    "value_usd_bn": 1570,
+    "year": 2026,
+    "segment": "Worldwide IT services spending",
+    "publisher": "Gartner",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-27-gartner-forecasts-worldwide-it-spending-to-grow-14-point-2-percent-in-2026-totaling-6-point-37-trillion"
+   }
   },
   {
    "industry": "Computers/Peripherals",
@@ -1843,7 +2235,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Computers/Peripherals",
+     "acquirer": "Sanmina",
+     "target": "ZT Systems server manufacturing (from AMD)",
+     "value_usd_bn": 3.0,
+     "date": "2025-05",
+     "note": "",
+     "url": "https://www.crn.com/news/channel-news/2025/the-10-biggest-tech-m-a-deals-of-2025",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Computers/Peripherals",
+    "value_usd_bn": 238.2,
+    "year": 2026,
+    "segment": "Global Computer Hardware Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-computer-hardware-manufacturing/950/"
+   }
   },
   {
    "industry": "Construction Supplies",
@@ -1898,7 +2310,20 @@
    "size_rank": 32,
    "score_rank": 70,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Construction Supplies",
+     "acquirer": "Quikrete",
+     "target": "Summit Materials",
+     "value_usd_bn": 11.5,
+     "date": "2025-02",
+     "note": "enterprise value; completed Feb 2025",
+     "url": "https://www.prnewswire.com/news-releases/summit-materials-completes-merger-with-quikrete-302372579.html",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Diversified",
@@ -1967,7 +2392,20 @@
      "street_rating": null
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Diversified",
+     "acquirer": "International Holding Company (IHC)",
+     "target": "Caring Group",
+     "value_usd_bn": 1.3,
+     "date": "2026-09",
+     "note": "acquirer is in the 85-company universe",
+     "url": "https://www.trysignalbase.com/news/acquisitions/caring-group-acquired-by-international-holding-company-llc-acquisition",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Drugs (Biotechnology)",
@@ -2153,7 +2591,37 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/1011835/000119312516696911/d234696dsc14d9.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Drugs (Biotechnology)",
+     "acquirer": "Novartis",
+     "target": "Avidity Biosciences",
+     "value_usd_bn": 12.0,
+     "date": "2025-10",
+     "note": "",
+     "url": "https://www.fiercepharma.com/pharma/top-10-biopharma-ma-deals-2025",
+     "value_text": null
+    },
+    {
+     "industry": "Drugs (Biotechnology)",
+     "acquirer": "Johnson & Johnson",
+     "target": "Halda Therapeutics",
+     "value_usd_bn": 3.05,
+     "date": "2025-11",
+     "note": "",
+     "url": "https://www.fiercepharma.com/pharma/top-10-biopharma-ma-deals-2025",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Drugs (Biotechnology)",
+    "value_usd_bn": 857.1,
+    "year": 2026,
+    "segment": "Global Biotechnology",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-biotechnology/2010/"
+   }
   },
   {
    "industry": "Drugs (Pharmaceutical)",
@@ -2288,7 +2756,37 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/1274057/000104746915003366/a2224139zdefm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Drugs (Pharmaceutical)",
+     "acquirer": "Johnson & Johnson",
+     "target": "Intra-Cellular Therapies",
+     "value_usd_bn": 14.6,
+     "date": "2025-01",
+     "note": "largest biopharma deal of 2025",
+     "url": "https://www.fiercepharma.com/pharma/top-10-biopharma-ma-deals-2025",
+     "value_text": null
+    },
+    {
+     "industry": "Drugs (Pharmaceutical)",
+     "acquirer": "Merck & Co.",
+     "target": "Verona Pharma",
+     "value_usd_bn": 10.0,
+     "date": "2025-07",
+     "note": "",
+     "url": "https://www.fiercepharma.com/pharma/top-10-biopharma-ma-deals-2025",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Drugs (Pharmaceutical)",
+    "value_usd_bn": 1200.0,
+    "year": 2026,
+    "segment": "Global Pharmaceutical & Medicine Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-pharmaceutical-medicine-manufacturing/720/"
+   }
   },
   {
    "industry": "Education",
@@ -2343,7 +2841,20 @@
    "size_rank": 80,
    "score_rank": 10,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Education",
+     "acquirer": "EQT-led consortium",
+     "target": "Nord Anglia Education",
+     "value_usd_bn": 14.5,
+     "date": "2025-03",
+     "note": "completed March 2025",
+     "url": "https://www.ropesgray.com/en/news-and-events/news/2025/03/eqt-consortium-completes-acquisition-of-nord-anglia-education",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Electrical Equipment",
@@ -2412,7 +2923,20 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Electrical Equipment",
+     "acquirer": "Eaton",
+     "target": "Boyd Thermal",
+     "value_usd_bn": 9.5,
+     "date": "2025-11",
+     "note": "announced 3 Nov 2025",
+     "url": "https://blog.janescapital.com/key-insights/top-5-largest-aerospace-defense-ma-deals-2h-2025",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Electronics (Consumer & Office)",
@@ -2508,7 +3032,27 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/1447599/000162828019015006/fitbitdefinitiveproxy.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Electronics (Consumer & Office)",
+     "acquirer": "Xerox",
+     "target": "Lexmark",
+     "value_usd_bn": 1.5,
+     "date": "2025-07",
+     "note": "including net debt and assumed liabilities",
+     "url": "https://www.news.xerox.com/news/xerox-completes-the-acquisition-of-lexmark-uniting-two-industry-leaders",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Electronics (Consumer & Office)",
+    "value_usd_bn": 2100.0,
+    "year": 2026,
+    "segment": "Global Consumer Electronics Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-consumer-electronics-manufacturing/970/"
+   }
   },
   {
    "industry": "Electronics (General)",
@@ -2577,7 +3121,27 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/800459/000119312517014190/d299841ddefm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Electronics (General)",
+     "acquirer": "Amphenol",
+     "target": "CommScope Connectivity and Cable Solutions",
+     "value_usd_bn": 10.5,
+     "date": "2025-08",
+     "note": "cash",
+     "url": "https://investors.amphenol.com/news-and-events/news-details/2025/Amphenol-Corporation-to-Acquire-Connectivity-and-Cable-Solutions-Business-From-CommScope/default.aspx",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Electronics (General)",
+    "value_usd_bn": 1700.0,
+    "year": 2026,
+    "segment": "Global Semiconductor & Electronic Parts Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-semiconductor-electronic-parts-manufacturing/960/"
+   }
   },
   {
    "industry": "Engineering/Construction",
@@ -2632,7 +3196,20 @@
    "size_rank": 50,
    "score_rank": 73,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Engineering/Construction",
+     "acquirer": "WSP Global",
+     "target": "TRC Companies",
+     "value_usd_bn": 3.3,
+     "date": "2025-12",
+     "note": "",
+     "url": "https://www.constructionbriefing.com/news/wsp-the-largest-engineering-firm-in-the-us-after-33bn-acquisition/8110053.article",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Entertainment",
@@ -2714,7 +3291,37 @@
      "street_rating": "Strong Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Entertainment",
+     "acquirer": "Paramount Skydance",
+     "target": "Warner Bros. Discovery",
+     "value_usd_bn": 111.0,
+     "date": "2026",
+     "note": "after Netflix withdrew",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Entertainment",
+     "acquirer": "Fox Corporation",
+     "target": "Roku",
+     "value_usd_bn": 22.0,
+     "date": "2026",
+     "note": "",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Entertainment",
+    "value_usd_bn": 65.7,
+    "year": 2026,
+    "segment": "Global Movie Production & Distribution (film only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-movie-production-distribution/2150/"
+   }
   },
   {
    "industry": "Environmental & Waste Services",
@@ -2769,7 +3376,20 @@
    "size_rank": 52,
    "score_rank": 11,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Environmental & Waste Services",
+     "acquirer": "Apollo and BC Partners",
+     "target": "GFL Environmental Services",
+     "value_usd_bn": 8.0,
+     "date": "2025-01",
+     "note": "business valued at $8.0bn (C$ basis per release)",
+     "url": "https://www.apollo.com/insights-news/pressreleases/2025/01/gfl-environmental-inc--announces-agreement-to-sell-environmental",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Farming/Agriculture",
@@ -2824,7 +3444,27 @@
    "size_rank": 59,
    "score_rank": 84,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Farming/Agriculture",
+     "acquirer": "Bunge",
+     "target": "Viterra",
+     "value_usd_bn": null,
+     "date": "2025-07",
+     "note": "completed 2025; Bunge assumed US$9.8bn of Viterra debt",
+     "url": "https://www.viterra.com/Media/News/bunge-and-viterra-complete-merger-to-create-premier-global-agribusiness-solutions-company",
+     "value_text": "+$9.8bn debt assumed"
+    }
+   ],
+   "market_size": {
+    "industry": "Farming/Agriculture",
+    "value_usd_bn": 417.8,
+    "year": 2026,
+    "segment": "Global Fertilizer & Agricultural Chemical Manufacturing (inputs only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-fertilizer-agricultural-chemical-manufacturing/710/"
+   }
   },
   {
    "industry": "Financial Svcs. (Non-bank & Insurance)",
@@ -2933,7 +3573,20 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/1580608/000119312521266674/d195469dsc14d9.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Financial Svcs. (Non-bank & Insurance)",
+     "acquirer": "Global Payments",
+     "target": "Worldpay",
+     "value_usd_bn": 24.25,
+     "date": "2025-04",
+     "note": "payments",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Food Processing",
@@ -2988,7 +3641,20 @@
    "size_rank": 47,
    "score_rank": 13,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Food Processing",
+     "acquirer": "Unilever (food business)",
+     "target": "McCormick & Company",
+     "value_usd_bn": 65.0,
+     "date": "2026",
+     "note": "pending; merger",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Food Wholesalers",
@@ -3043,7 +3709,30 @@
    "size_rank": 72,
    "score_rank": 12,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Food Wholesalers",
+     "acquirer": "Sysco",
+     "target": "Jetro Restaurant Depot",
+     "value_usd_bn": 29.0,
+     "date": "2026",
+     "note": "pending",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Food Wholesalers",
+     "acquirer": "C&S Wholesale Grocers",
+     "target": "SpartanNash",
+     "value_usd_bn": 1.77,
+     "date": "2025-06",
+     "note": "",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Furn/Home Furnishings",
@@ -3098,7 +3787,20 @@
    "size_rank": 79,
    "score_rank": 72,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Furn/Home Furnishings",
+     "acquirer": "Tempur Sealy (Somnigroup)",
+     "target": "Mattress Firm",
+     "value_usd_bn": 4.0,
+     "date": "2025-02",
+     "note": "completed Feb 2025",
+     "url": "https://somnigroup.com/newsroom/news-details/2025/Tempur-Sealy-Successfully-Completes-Acquisition-of-Mattress-Firm/default.aspx",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Green & Renewable Energy",
@@ -3167,7 +3869,20 @@
      "consideration": "stock (0.110 TSLA per SCTY)",
      "source": "https://www.sec.gov/Archives/edgar/data/1408356/000119312516736379/d231493ddefm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Green & Renewable Energy",
+     "acquirer": "Brookfield Renewable",
+     "target": "Neoen",
+     "value_usd_bn": null,
+     "date": "2025-03",
+     "note": "tender offer completed March 2025 after 53.12% stake bought for EUR 3.25bn",
+     "url": "https://neoen.com/app/uploads/2025/03/Brookfield-x-Neoen-Offer-Results-20250319.pdf",
+     "value_text": "EUR 3.25bn (53% stake)"
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Healthcare Products",
@@ -3222,7 +3937,20 @@
    "size_rank": 13,
    "score_rank": 29,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Healthcare Products",
+     "acquirer": "Abbott Laboratories",
+     "target": "Exact Sciences",
+     "value_usd_bn": 21.0,
+     "date": "2025-11",
+     "note": "diagnostics",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Healthcare Support Services",
@@ -3277,7 +4005,20 @@
    "size_rank": 18,
    "score_rank": 7,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Healthcare Support Services",
+     "acquirer": "Cardinal Health",
+     "target": "Solaris Health",
+     "value_usd_bn": 1.9,
+     "date": "2025-08",
+     "note": "cash; completed 3 Nov 2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000006/cah-20251231.htm",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Heathcare Information and Technology",
@@ -3346,7 +4087,20 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312521362532/d276733dex991.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Heathcare Information and Technology",
+     "acquirer": "Waystar",
+     "target": "Iodine Software",
+     "value_usd_bn": 1.25,
+     "date": "2025-07",
+     "note": "enterprise value; completed 1 Oct 2025",
+     "url": "https://www.fiercehealthcare.com/health-tech/waystar-buy-iodine-software-125b-boost-ai-enabled-revenue-cycle-management",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Homebuilding",
@@ -3401,7 +4155,20 @@
    "size_rank": 63,
    "score_rank": 21,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Homebuilding",
+     "acquirer": "Sumitomo Forestry",
+     "target": "Tri Pointe Homes",
+     "value_usd_bn": 4.5,
+     "date": "2026-02",
+     "note": "all cash, 29% premium; completed May 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/1561680/000119312526049867/d75298dex991.htm",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Hospitals/Healthcare Facilities",
@@ -3456,7 +4223,20 @@
    "size_rank": 62,
    "score_rank": 3,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Hospitals/Healthcare Facilities",
+     "acquirer": "Consortium led by Robert Ortenzio",
+     "target": "Select Medical",
+     "value_usd_bn": 3.9,
+     "date": "2026-06",
+     "note": "take-private completed 30 June 2026",
+     "url": "https://www.beckershospitalreview.com/hospital-transactions-and-valuation/21-hospital-mas-finalized-in-2026/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Hotel/Gaming",
@@ -3511,7 +4291,37 @@
    "size_rank": 21,
    "score_rank": 47,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Hotel/Gaming",
+     "acquirer": "Fertitta Entertainment",
+     "target": "Caesars Entertainment",
+     "value_usd_bn": 17.6,
+     "date": "2026-05",
+     "note": "$5.7bn equity plus $11.9bn assumed debt; 49% premium",
+     "url": "https://abc13.com/post/fertitta-entertainment-buy-caesars-176b-transaction/19193688/",
+     "value_text": null
+    },
+    {
+     "industry": "Hotel/Gaming",
+     "acquirer": "VICI Properties and Blake Sartini",
+     "target": "Golden Entertainment",
+     "value_usd_bn": 1.16,
+     "date": "2025-11",
+     "note": "value is VICI's purchase of seven casino properties; closed April 2026",
+     "url": "https://www.reviewjournal.com/business/casinos-gaming/golden-entertainment-boss-is-buying-casino-company-3533821/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Hotel/Gaming",
+    "value_usd_bn": 2000.0,
+    "year": 2026,
+    "segment": "Global Hotels & Resorts",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-hotels-resorts/1460/"
+   }
   },
   {
    "industry": "Household Products",
@@ -3580,7 +4390,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Household Products",
+     "acquirer": "Kimberly-Clark",
+     "target": "Kenvue",
+     "value_usd_bn": 48.7,
+     "date": "2025-11",
+     "note": "",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Household Products",
+    "value_usd_bn": 458.3,
+    "year": 2026,
+    "segment": "Global Cosmetics Manufacturing (personal care only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-cosmetic-manufacturing/730/"
+   }
   },
   {
    "industry": "Information Services",
@@ -3635,7 +4465,20 @@
    "size_rank": 74,
    "score_rank": 30,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Information Services",
+     "acquirer": "Clearlake Capital",
+     "target": "Dun & Bradstreet",
+     "value_usd_bn": 7.7,
+     "date": "2025-03",
+     "note": "announced March 2025, completed 2025",
+     "url": "https://clearlake.com/news/dun-bradstreet-enters-into-a-definitive-agreement-to-be-acquired-by-clearlake-capital-group/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Insurance (General)",
@@ -3704,7 +4547,27 @@
      "street_rating": "Hold"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Insurance (General)",
+     "acquirer": "Brown & Brown",
+     "target": "Accession Risk Management Group",
+     "value_usd_bn": 9.825,
+     "date": "2025-06",
+     "note": "insurance broker; completed Aug 2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/79282/000119312525138153/d32630dex991.htm",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Insurance (General)",
+    "value_usd_bn": 2900.0,
+    "year": 2026,
+    "segment": "Global Direct General Insurance Carriers",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-direct-general-insurance-carriers/1810/"
+   }
   },
   {
    "industry": "Insurance (Life)",
@@ -3759,7 +4622,27 @@
    "size_rank": 55,
    "score_rank": 36,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Insurance (Life)",
+     "acquirer": "Equitable Holdings",
+     "target": "Corebridge Financial",
+     "value_usd_bn": 22.0,
+     "date": "2026",
+     "note": "pending",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Insurance (Life)",
+    "value_usd_bn": 6500.0,
+    "year": 2026,
+    "segment": "Global Life & Health Insurance Carriers",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-life-health-insurance-carriers/1800/"
+   }
   },
   {
    "industry": "Insurance (Prop/Cas.)",
@@ -3842,7 +4725,37 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/775368/000114036122016936/ny20003698x2_defm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Insurance (Prop/Cas.)",
+     "acquirer": "Sompo Holdings",
+     "target": "Aspen Insurance",
+     "value_usd_bn": 3.5,
+     "date": "2025-08",
+     "note": "specialty P&C insurer and reinsurer",
+     "url": "https://investor.aspen.co/news/news-details/2025/Sompo-to-Acquire-Aspen-for-3-5-Billion/default.aspx",
+     "value_text": null
+    },
+    {
+     "industry": "Insurance (Prop/Cas.)",
+     "acquirer": "Munich Re (ERGO)",
+     "target": "NEXT Insurance",
+     "value_usd_bn": 2.6,
+     "date": "2025-03",
+     "note": "completed July 2025",
+     "url": "https://www.munichre.com/mrv/en/portfolio/next.html",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Insurance (Prop/Cas.)",
+    "value_usd_bn": 2900.0,
+    "year": 2026,
+    "segment": "Global Direct General Insurance Carriers",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-direct-general-insurance-carriers/1810/"
+   }
   },
   {
    "industry": "Investments & Asset Management",
@@ -3911,7 +4824,20 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Investments & Asset Management",
+     "acquirer": "BlackRock",
+     "target": "HPS Investment Partners",
+     "value_usd_bn": 12.0,
+     "date": "2025-07",
+     "note": "completed July 2025 (announced Dec 2024)",
+     "url": "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-acquires-hps-investment-partners",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Machinery",
@@ -3966,7 +4892,30 @@
    "size_rank": 28,
    "score_rank": 40,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Machinery",
+     "acquirer": "Toyota group",
+     "target": "Toyota Industries",
+     "value_usd_bn": 39.66,
+     "date": "2025-06",
+     "note": "take-private",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Machinery",
+     "acquirer": "KONE",
+     "target": "TK Elevator",
+     "value_usd_bn": 24.0,
+     "date": "2026",
+     "note": "pending",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Metals & Mining",
@@ -4048,7 +4997,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Metals & Mining",
+     "acquirer": "Anglo American",
+     "target": "Teck Resources",
+     "value_usd_bn": 53.0,
+     "date": "2025-09",
+     "note": "pending merger",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Metals & Mining",
+    "value_usd_bn": 263.9,
+    "year": 2026,
+    "segment": "Global Iron Ore Mining (iron ore only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-iron-ore-mining/220/"
+   }
   },
   {
    "industry": "Office Equipment & Services",
@@ -4103,7 +5072,20 @@
    "size_rank": 86,
    "score_rank": 59,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Office Equipment & Services",
+     "acquirer": "Atlas Holdings",
+     "target": "ODP Corp. (Office Depot)",
+     "value_usd_bn": 1.0,
+     "date": "2025-09",
+     "note": "",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Oil/Gas (Integrated)",
@@ -4289,7 +5271,27 @@
      "street_rating": "Strong Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Oil/Gas (Integrated)",
+     "acquirer": "Chevron",
+     "target": "Hess",
+     "value_usd_bn": 53.0,
+     "date": "2025-07",
+     "note": "completed July 2025 (announced 2023)",
+     "url": "https://finance.yahoo.com/news/chevron-completes-53bn-acquisition-hess-090156043.html",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Oil/Gas (Integrated)",
+    "value_usd_bn": 4000.0,
+    "year": 2026,
+    "segment": "Global Oil & Gas Exploration & Production (upstream only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-oil-gas-exploration-production/190/"
+   }
   },
   {
    "industry": "Oil/Gas (Production and Exploration)",
@@ -4410,7 +5412,27 @@
      "consideration": "stock",
      "source": "https://www.sec.gov/Archives/edgar/data/72207/000119312520231237/d943112ddefm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Oil/Gas (Production and Exploration)",
+     "acquirer": "Devon Energy",
+     "target": "Coterra Energy",
+     "value_usd_bn": 58.0,
+     "date": "2026",
+     "note": "merger",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Oil/Gas (Production and Exploration)",
+    "value_usd_bn": 4000.0,
+    "year": 2026,
+    "segment": "Global Oil & Gas Exploration & Production",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-oil-gas-exploration-production/190/"
+   }
   },
   {
    "industry": "Oil/Gas Distribution",
@@ -4465,7 +5487,20 @@
    "size_rank": 48,
    "score_rank": 8,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Oil/Gas Distribution",
+     "acquirer": "Sunoco LP",
+     "target": "Parkland",
+     "value_usd_bn": 9.1,
+     "date": "2025-05",
+     "note": "including assumed debt",
+     "url": "https://www.sunocolp.com/press-release/item/sunoco-lp-to-acquire-parkland-corporation-in-transaction-valued-at-9-1-billion-2025",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Oilfield Svcs/Equip.",
@@ -4520,7 +5555,20 @@
    "size_rank": 42,
    "score_rank": 38,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Oilfield Svcs/Equip.",
+     "acquirer": "SLB",
+     "target": "ChampionX",
+     "value_usd_bn": 7.75,
+     "date": "2025-07",
+     "note": "completed July 2025 (announced 2024)",
+     "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-completes-acquisition-championx",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Packaging & Container",
@@ -4575,7 +5623,27 @@
    "size_rank": 68,
    "score_rank": 75,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Packaging & Container",
+     "acquirer": "Amcor",
+     "target": "Berry Global",
+     "value_usd_bn": 8.43,
+     "date": "2025-04",
+     "note": "all stock; completed April 2025 (announced Nov 2024)",
+     "url": "https://www.reuters.com/markets/deals/us-packaging-firm-amcor-buy-berry-843-bln-deal-2024-11-19/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Packaging & Container",
+    "value_usd_bn": 526.0,
+    "year": 2026,
+    "segment": "Global Cardboard Box & Container Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-cardboard-box-container-manufacturing/540/"
+   }
   },
   {
    "industry": "Paper/Forest Products",
@@ -4630,7 +5698,27 @@
    "size_rank": 89,
    "score_rank": 76,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Paper/Forest Products",
+     "acquirer": "International Paper",
+     "target": "DS Smith",
+     "value_usd_bn": 7.2,
+     "date": "2025-01",
+     "note": "completed January 2025",
+     "url": "https://www.packagingdive.com/news/international-paper-completes-acquisition-ds-smith/736227/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Paper/Forest Products",
+    "value_usd_bn": 622.0,
+    "year": 2026,
+    "segment": "Global Paper & Pulp Mills",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-paper-pulp-mills/530/"
+   }
   },
   {
    "industry": "Power",
@@ -4699,7 +5787,30 @@
      "street_rating": "Sell"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Power",
+     "acquirer": "Constellation Energy",
+     "target": "Calpine",
+     "value_usd_bn": 29.0,
+     "date": "2025-01",
+     "note": "including debt",
+     "url": "https://www.utilitydive.com/news/energy-industry-utility-ipp-mergers-pwc/808228/",
+     "value_text": null
+    },
+    {
+     "industry": "Power",
+     "acquirer": "NRG Energy",
+     "target": "LS Power assets",
+     "value_usd_bn": 12.5,
+     "date": "2025-05",
+     "note": "",
+     "url": "https://www.utilitydive.com/news/energy-industry-utility-ipp-mergers-pwc/808228/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Precious Metals",
@@ -4754,7 +5865,20 @@
    "size_rank": 56,
    "score_rank": 2,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Precious Metals",
+     "acquirer": "Coeur Mining",
+     "target": "New Gold",
+     "value_usd_bn": 7.0,
+     "date": "2025-11",
+     "note": "equity value; largest gold merger of 2025",
+     "url": "https://www.kitco.com/news/article/2025-11-03/coeur-mining-acquire-new-gold-7b-deal-forging-north-american-powerhouse",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Publishing & Newspapers",
@@ -4809,7 +5933,37 @@
    "size_rank": 83,
    "score_rank": 27,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Publishing & Newspapers",
+     "acquirer": "Axel Springer",
+     "target": "The Telegraph",
+     "value_usd_bn": 0.77,
+     "date": "2026-03",
+     "note": "GBP 575m cash",
+     "url": "https://www.axios.com/2026/03/06/telegraph-axel-springer-politico-deal",
+     "value_text": null
+    },
+    {
+     "industry": "Publishing & Newspapers",
+     "acquirer": "Hearst",
+     "target": "DallasNews Corporation",
+     "value_usd_bn": 0.075,
+     "date": "2025-07",
+     "note": "219% premium",
+     "url": "https://www.dmagazine.com/business-economy/2025/07/dallasnews-corporation-acquired-by-hearst-at-74-9-million-valuation/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Publishing & Newspapers",
+    "value_usd_bn": 80.5,
+    "year": 2026,
+    "segment": "Global Newspaper Publishing (newspapers only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-newspaper-publishing/570/"
+   }
   },
   {
    "industry": "R.E.I.T.",
@@ -4864,7 +6018,27 @@
    "size_rank": 14,
    "score_rank": 67,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "R.E.I.T.",
+     "acquirer": "AvalonBay Communities",
+     "target": "Equity Residential",
+     "value_usd_bn": 69.0,
+     "date": "2026",
+     "note": "merger of apartment REITs",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "R.E.I.T.",
+    "value_usd_bn": 5800.0,
+    "year": 2026,
+    "segment": "Global Commercial Real Estate",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-commercial-real-estate/1866/"
+   }
   },
   {
    "industry": "Real Estate (Development)",
@@ -4933,7 +6107,20 @@
      "street_rating": "Strong Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Real Estate (Development)",
+     "acquirer": "Pershing Square",
+     "target": "Howard Hughes Holdings (new shares, to 46.9%)",
+     "value_usd_bn": 0.9,
+     "date": "2025-05",
+     "note": "$100 per share, 48% premium",
+     "url": "https://www.costar.com/article/2136651533/ackmans-pershing-square-buys-bigger-stake-in-howard-hughes-holdings",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Real Estate (General/Diversified)",
@@ -4988,7 +6175,37 @@
    "size_rank": 91,
    "score_rank": 82,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Real Estate (General/Diversified)",
+     "acquirer": "Starwood Property Trust",
+     "target": "Fundamental Income Properties (Brookfield)",
+     "value_usd_bn": 2.2,
+     "date": "2025-07",
+     "note": "467 net-lease properties",
+     "url": "https://commercialobserver.com/2025/07/starwood-buys-brookfields-net-lease-platform-for-2-2b/",
+     "value_text": null
+    },
+    {
+     "industry": "Real Estate (General/Diversified)",
+     "acquirer": "Savills",
+     "target": "Eastdil Secured",
+     "value_usd_bn": 1.11,
+     "date": "2026-03",
+     "note": "",
+     "url": "https://www.globest.com/amp/2026/03/12/savills-expects-70-jump-in-cre-revenue-from-11b-eastdil-acquisition/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Real Estate (General/Diversified)",
+    "value_usd_bn": 5800.0,
+    "year": 2026,
+    "segment": "Global Commercial Real Estate",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-commercial-real-estate/1866/"
+   }
   },
   {
    "industry": "Real Estate (Operations & Services)",
@@ -5043,7 +6260,27 @@
    "size_rank": 65,
    "score_rank": 88,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Real Estate (Operations & Services)",
+     "acquirer": "AI Infrastructure Partnership (BlackRock/GIP, Microsoft, Nvidia, MGX)",
+     "target": "Aligned Data Centers",
+     "value_usd_bn": 40.0,
+     "date": "2025-10",
+     "note": "data centers",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Real Estate (Operations & Services)",
+    "value_usd_bn": 5800.0,
+    "year": 2026,
+    "segment": "Global Commercial Real Estate",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-commercial-real-estate/1866/"
+   }
   },
   {
    "industry": "Recreation",
@@ -5098,7 +6335,20 @@
    "size_rank": 73,
    "score_rank": 66,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Recreation",
+     "acquirer": "Leonard Green & Partners",
+     "target": "Topgolf (60% stake)",
+     "value_usd_bn": 1.1,
+     "date": "2025-11",
+     "note": "valuation of the business",
+     "url": "https://www.barchart.com/story/news/36177991/topgolf-callaway-brands-announces-an-agreement-to-sell-a-majority-stake-in-its-topgolf-business-to-leonard-green-partners",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Reinsurance",
@@ -5153,7 +6403,27 @@
    "size_rank": 87,
    "score_rank": 16,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Reinsurance",
+     "acquirer": "Howard Hughes Holdings",
+     "target": "Vantage Group Holdings",
+     "value_usd_bn": 2.1,
+     "date": "2025-12",
+     "note": "specialty insurer and reinsurer",
+     "url": "https://www.pwc.com/us/en/industries/financial-services/library/insurance-deals-outlook.html",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Reinsurance",
+    "value_usd_bn": 364.0,
+    "year": 2026,
+    "segment": "Global Reinsurance Carriers",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-reinsurance-carriers/1820/"
+   }
   },
   {
    "industry": "Restaurant/Dining",
@@ -5208,7 +6478,27 @@
    "size_rank": 27,
    "score_rank": 37,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Restaurant/Dining",
+     "acquirer": "Boyu Capital",
+     "target": "Starbucks China retail (up to 60%)",
+     "value_usd_bn": 4.0,
+     "date": "2025-11",
+     "note": "enterprise value of the business",
+     "url": "https://www.reuters.com/world/china/starbucks-sell-control-china-business-boyu-capital-4-billion-deal-2025-11-04/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Restaurant/Dining",
+    "value_usd_bn": 1100.0,
+    "year": 2026,
+    "segment": "Global Fast Food Restaurants (fast food only)",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-fast-food-restaurants/1480/"
+   }
   },
   {
    "industry": "Retail (Automotive)",
@@ -5263,7 +6553,20 @@
    "size_rank": 51,
    "score_rank": 49,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Retail (Automotive)",
+     "acquirer": "Asbury Automotive",
+     "target": "Herb Chambers dealerships",
+     "value_usd_bn": 1.45,
+     "date": "2025-07",
+     "note": "aggregate net purchase price",
+     "url": "https://www.stblaw.com/asbury-automotive-group-completes-acquisition-of-herb-chambers-dealerships/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Retail (Building Supply)",
@@ -5318,7 +6621,30 @@
    "size_rank": 34,
    "score_rank": 87,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Retail (Building Supply)",
+     "acquirer": "Lowe's",
+     "target": "Foundation Building Materials",
+     "value_usd_bn": 8.8,
+     "date": "2025-08",
+     "note": "",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    },
+    {
+     "industry": "Retail (Building Supply)",
+     "acquirer": "Home Depot",
+     "target": "GMS Inc.",
+     "value_usd_bn": 5.5,
+     "date": "2025-06",
+     "note": "",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Retail (Distributors)",
@@ -5373,7 +6699,20 @@
    "size_rank": 43,
    "score_rank": 58,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Retail (Distributors)",
+     "acquirer": "Ferguson Enterprises",
+     "target": "FloWorks",
+     "value_usd_bn": 1.6,
+     "date": "2026-07",
+     "note": "enterprise value, cash",
+     "url": "https://www.orrick.com/en/news/2026/07/ferguson-to-acquire-floworks-for-16-billion",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Retail (General)",
@@ -5481,7 +6820,20 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Retail (General)",
+     "acquirer": "Nordstrom family and El Puerto de Liverpool",
+     "target": "Nordstrom",
+     "value_usd_bn": 6.25,
+     "date": "2025-05",
+     "note": "take-private completed 2025 (announced Dec 2024)",
+     "url": "https://www.cnbc.com/2024/12/23/nordstrom-private-company-founding-family-el-puerto-de-liverpool.html",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Retail (Grocery and Food)",
@@ -5550,7 +6902,20 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/1018724/000119312517205287/d352949dex991.htm ; https://www.sec.gov/Archives/edgar/data/865436/000104746917004058/a2232461zex-99_2.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Retail (Grocery and Food)",
+     "acquirer": "Sycamore Partners",
+     "target": "Walgreens Boots Alliance",
+     "value_usd_bn": 23.7,
+     "date": "2025-03",
+     "note": "drugstore take-private",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Retail (REITs)",
@@ -5605,7 +6970,27 @@
    "size_rank": 58,
    "score_rank": 52,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Retail (REITs)",
+     "acquirer": "Blackstone Real Estate",
+     "target": "Retail Opportunity Investments Corp.",
+     "value_usd_bn": 4.0,
+     "date": "2025-02",
+     "note": "take-private completed Feb 2025",
+     "url": "https://www.blackstone.com/news/press/blackstone-real-estate-completes-privatization-of-retail-opportunity-investments-corp-for-4-billion/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Retail (REITs)",
+    "value_usd_bn": 5800.0,
+    "year": 2026,
+    "segment": "Global Commercial Real Estate",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-commercial-real-estate/1866/"
+   }
   },
   {
    "industry": "Retail (Special Lines)",
@@ -5688,7 +7073,20 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/98246/000119312520001590/d841743ddefm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Retail (Special Lines)",
+     "acquirer": "DICK'S Sporting Goods",
+     "target": "Foot Locker",
+     "value_usd_bn": 4.9,
+     "date": "2025-05",
+     "note": "enterprise value",
+     "url": "https://www.capstonepartners.com/insights/article-apparel-footwear-accessories-market-update/",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Rubber& Tires",
@@ -5743,7 +7141,20 @@
    "size_rank": 93,
    "score_rank": 46,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Rubber& Tires",
+     "acquirer": "Yokohama Rubber",
+     "target": "Goodyear off-the-road tire business",
+     "value_usd_bn": 0.905,
+     "date": "2025-02",
+     "note": "all cash",
+     "url": "https://news.goodyear.com/2025-02-03-Goodyear-Completes-Divestiture-Of-Off-The-Road-OTR-Tire-Business",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Semiconductor",
@@ -5904,7 +7315,37 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/768251/000119312515300376/d942513ddefm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Semiconductor",
+     "acquirer": "Skyworks Solutions",
+     "target": "Qorvo",
+     "value_usd_bn": 22.0,
+     "date": "2025-10",
+     "note": "merger",
+     "url": "https://qz.com/major-semiconductor-acquisitions-chip-deals",
+     "value_text": null
+    },
+    {
+     "industry": "Semiconductor",
+     "acquirer": "Qualcomm",
+     "target": "Alphawave Semi",
+     "value_usd_bn": 2.4,
+     "date": "2025-06",
+     "note": "",
+     "url": "https://www.crn.com/news/channel-news/2025/the-10-biggest-tech-m-a-deals-of-2025",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Semiconductor",
+    "value_usd_bn": 1700.0,
+    "year": 2026,
+    "segment": "Global Semiconductor & Electronic Parts Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-semiconductor-electronic-parts-manufacturing/960/"
+   }
   },
   {
    "industry": "Semiconductor Equip",
@@ -5973,7 +7414,27 @@
      "street_rating": "Strong Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Semiconductor Equip",
+     "acquirer": "Axcelis Technologies",
+     "target": "Veeco Instruments",
+     "value_usd_bn": 4.4,
+     "date": "2025-10",
+     "note": "all-stock merger; combined enterprise value",
+     "url": "https://ng.investing.com/news/company-news/axcelis-and-veeco-to-merge-in-allstock-deal-worth-44-billion-93CH-2128513",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Semiconductor Equip",
+    "value_usd_bn": 165.9,
+    "year": 2026,
+    "segment": "Total semiconductor manufacturing equipment sales (forecast)",
+    "publisher": "SEMI",
+    "url": "https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-sales-forecast-to-reach-a-record-229-billion-dollars-in-2028-semi-reports"
+   }
   },
   {
    "industry": "Shipbuilding & Marine",
@@ -6028,7 +7489,37 @@
    "size_rank": 88,
    "score_rank": 41,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Shipbuilding & Marine",
+     "acquirer": "Chantier Davie",
+     "target": "Gulf Copper shipyards (Texas)",
+     "value_usd_bn": 1.0,
+     "date": "2025-06",
+     "note": "over $1bn to buy and upgrade the yards",
+     "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/canadas-davie-makes-1-billion-deal-for-us-shipyard-gulf-copper",
+     "value_text": null
+    },
+    {
+     "industry": "Shipbuilding & Marine",
+     "acquirer": "Hanwha Defense USA",
+     "target": "Austal USA",
+     "value_usd_bn": 1.0,
+     "date": "2026-08",
+     "note": "non-binding bid, subject to CFIUS",
+     "url": "https://news.usni.org/2026/08/10/hanwha-makes-1b-bid-to-acquire-austal-usa-shipbuilder-declares-79-73m-loss",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Shipbuilding & Marine",
+    "value_usd_bn": 223.9,
+    "year": 2026,
+    "segment": "Global Ship & Boat Building",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-ship-boat-building/1030/"
+   }
   },
   {
    "industry": "Shoe",
@@ -6083,7 +7574,37 @@
    "size_rank": 67,
    "score_rank": 53,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Shoe",
+     "acquirer": "3G Capital",
+     "target": "Skechers",
+     "value_usd_bn": 9.4,
+     "date": "2025-05",
+     "note": "take-private",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    },
+    {
+     "industry": "Shoe",
+     "acquirer": "Steve Madden",
+     "target": "Kurt Geiger",
+     "value_usd_bn": 0.365,
+     "date": "2025-02",
+     "note": "",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Shoe",
+    "value_usd_bn": 149.9,
+    "year": 2026,
+    "segment": "Global Footwear Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-footwear-manufacturing/500/"
+   }
   },
   {
    "industry": "Software (Entertainment)",
@@ -6166,7 +7687,20 @@
      "consideration": "cash",
      "source": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/ ; https://uk.investing.com/news/stock-market-news/microsoft-to-acquire-activision-blizzard-in-687-billion-deal-2564186"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Software (Entertainment)",
+     "acquirer": "PIF, Silver Lake, Affinity Partners",
+     "target": "Electronic Arts",
+     "value_usd_bn": 55.0,
+     "date": "2025-09",
+     "note": "take-private",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Software (Internet)",
@@ -6275,7 +7809,30 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312516619689/d116815dex991.htm ; https://www.sec.gov/Archives/edgar/data/1271024/000104746916014430/a2229104zdefm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Software (Internet)",
+     "acquirer": "SpaceX",
+     "target": "xAI",
+     "value_usd_bn": 250.0,
+     "date": "2026",
+     "note": "AI; all-stock",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Software (Internet)",
+     "acquirer": "xAI",
+     "target": "X Corp.",
+     "value_usd_bn": 33.0,
+     "date": "2025-03",
+     "note": "33-45bn reported",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Software (System & Application)",
@@ -6501,7 +8058,77 @@
      "consideration": "cash",
      "source": "https://www.sec.gov/Archives/edgar/data/1066026/000119312514371106/d797082ddefm14a.htm"
     }
-   ]
+   ],
+   "recent_deals": [
+    {
+     "industry": "Software (System & Application)",
+     "acquirer": "SpaceX",
+     "target": "Anysphere (Cursor)",
+     "value_usd_bn": 60.0,
+     "date": "2026",
+     "note": "AI coding tools",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Software (System & Application)",
+     "acquirer": "Synopsys",
+     "target": "Ansys",
+     "value_usd_bn": 35.0,
+     "date": "2025",
+     "note": "completed 2025",
+     "url": "https://www.eenewseurope.com/en/the-2025-deals-reshaping-the-semiconductor-industry/",
+     "value_text": null
+    },
+    {
+     "industry": "Software (System & Application)",
+     "acquirer": "Alphabet",
+     "target": "Wiz",
+     "value_usd_bn": 32.0,
+     "date": "2025-03",
+     "note": "cybersecurity",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Software (System & Application)",
+     "acquirer": "Palo Alto Networks",
+     "target": "CyberArk",
+     "value_usd_bn": 25.0,
+     "date": "2025-07",
+     "note": "cybersecurity",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Software (System & Application)",
+     "acquirer": "Schneider Electric",
+     "target": "PTC",
+     "value_usd_bn": 22.6,
+     "date": "2026",
+     "note": "pending",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Software (System & Application)",
+     "acquirer": "Salesforce",
+     "target": "Informatica",
+     "value_usd_bn": 8.0,
+     "date": "2025-05",
+     "note": "",
+     "url": "https://www.digitalcommerce360.com/2025/12/29/recap-the-biggest-retail-mergers-and-acquisitions-of-2025/",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Software (System & Application)",
+    "value_usd_bn": 1468,
+    "year": 2026,
+    "segment": "Worldwide software spending",
+    "publisher": "Gartner",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-27-gartner-forecasts-worldwide-it-spending-to-grow-14-point-2-percent-in-2026-totaling-6-point-37-trillion"
+   }
   },
   {
    "industry": "Steel",
@@ -6556,7 +8183,20 @@
    "size_rank": 69,
    "score_rank": 86,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Steel",
+     "acquirer": "Nippon Steel",
+     "target": "U.S. Steel",
+     "value_usd_bn": 14.9,
+     "date": "2025-06",
+     "note": "completed 18 June 2025",
+     "url": "https://en.wikipedia.org/wiki/Acquisition_of_U.S._Steel_by_Nippon_Steel",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Telecom (Wireless)",
@@ -6625,7 +8265,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Telecom (Wireless)",
+     "acquirer": "AT&T",
+     "target": "EchoStar spectrum licenses",
+     "value_usd_bn": 23.0,
+     "date": "2025-08",
+     "note": "",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Telecom (Wireless)",
+    "value_usd_bn": 1900.0,
+    "year": 2026,
+    "segment": "Global Wireless Telecommunications Carriers",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-wireless-telecommunications-carriers/1700/"
+   }
   },
   {
    "industry": "Telecom. Equipment",
@@ -6680,7 +8340,30 @@
    "size_rank": 25,
    "score_rank": 64,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Telecom. Equipment",
+     "acquirer": "Marvell Technology",
+     "target": "Lumentum",
+     "value_usd_bn": 102.5,
+     "date": "2026",
+     "note": "pending; optical components",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    },
+    {
+     "industry": "Telecom. Equipment",
+     "acquirer": "Hewlett Packard Enterprise",
+     "target": "Juniper Networks",
+     "value_usd_bn": 13.4,
+     "date": "2025-07",
+     "note": "completed Jul 2025 (announced 2024)",
+     "url": "https://www.crn.com/news/channel-news/2025/the-10-biggest-tech-m-a-deals-of-2025",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Telecom. Services",
@@ -6762,7 +8445,27 @@
      "street_rating": "Buy"
     }
    ],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Telecom. Services",
+     "acquirer": "Bouygues, Orange, Iliad",
+     "target": "SFR (Altice France)",
+     "value_usd_bn": 23.44,
+     "date": "2026",
+     "note": "pending",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Telecom. Services",
+    "value_usd_bn": 1354,
+    "year": 2026,
+    "segment": "Worldwide communications services spending",
+    "publisher": "Gartner",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-27-gartner-forecasts-worldwide-it-spending-to-grow-14-point-2-percent-in-2026-totaling-6-point-37-trillion"
+   }
   },
   {
    "industry": "Tobacco",
@@ -6817,7 +8520,37 @@
    "size_rank": 45,
    "score_rank": 25,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Tobacco",
+     "acquirer": "KT&G and Altria",
+     "target": "Another Snus Factory",
+     "value_usd_bn": 0.19,
+     "date": "2025-09",
+     "note": "SEK 1.76bn; no tobacco deal above $1bn found in 2025-2026",
+     "url": "https://app.mergerlinks.com/transactions/2025-09-23-another-snus-factory-stockholm-ab",
+     "value_text": null
+    },
+    {
+     "industry": "Tobacco",
+     "acquirer": "Imperial Brands (ITG Brands)",
+     "target": "Black Buffalo",
+     "value_usd_bn": 0.15,
+     "date": "2026-05",
+     "note": "initial consideration plus deferred earn-out",
+     "url": "https://www.cspdailynews.com/tobacco/itg-brands-acquires-smokeless-tobacco-company-black-buffalo",
+     "value_text": null
+    }
+   ],
+   "market_size": {
+    "industry": "Tobacco",
+    "value_usd_bn": 566.6,
+    "year": 2026,
+    "segment": "Global Cigarette & Tobacco Manufacturing",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-cigarette-tobacco-manufacturing/440/"
+   }
   },
   {
    "industry": "Transportation",
@@ -6872,7 +8605,27 @@
    "size_rank": 41,
    "score_rank": 45,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Transportation",
+     "acquirer": "DSV",
+     "target": "DB Schenker",
+     "value_usd_bn": null,
+     "date": "2025-04",
+     "note": "completed April 2025",
+     "url": "https://investor.dsv.com/news-releases/news-release-details/dsv-1154-dsv-completes-acqusition-schenker",
+     "value_text": "EUR 14.3bn"
+    }
+   ],
+   "market_size": {
+    "industry": "Transportation",
+    "value_usd_bn": 580.3,
+    "year": 2025,
+    "segment": "Global Courier & Delivery Services",
+    "publisher": "IBISWorld",
+    "url": "https://www.ibisworld.com/global/industry/global-courier-delivery-services/1660/"
+   }
   },
   {
    "industry": "Transportation (Railroads)",
@@ -6927,7 +8680,20 @@
    "size_rank": 49,
    "score_rank": 81,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Transportation (Railroads)",
+     "acquirer": "Union Pacific",
+     "target": "Norfolk Southern",
+     "value_usd_bn": 85.0,
+     "date": "2025-07",
+     "note": "pending",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Trucking",
@@ -6982,7 +8748,20 @@
    "size_rank": 66,
    "score_rank": 83,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Trucking",
+     "acquirer": "Werner Enterprises",
+     "target": "FirstFleet",
+     "value_usd_bn": 0.245,
+     "date": "2026-01",
+     "note": "below $1bn: large carrier M&A was sparse in 2025",
+     "url": "https://finance.yahoo.com/news/werner-enterprises-closes-245m-firstfleet-143506160.html",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Utility (General)",
@@ -7037,7 +8816,20 @@
    "size_rank": 44,
    "score_rank": 61,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Utility (General)",
+     "acquirer": "NextEra Energy",
+     "target": "Dominion Energy",
+     "value_usd_bn": 66.8,
+     "date": "2026",
+     "note": "pending",
+     "url": "https://en.wikipedia.org/wiki/List_of_largest_mergers_and_acquisitions",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   },
   {
    "industry": "Utility (Water)",
@@ -7092,7 +8884,20 @@
    "size_rank": 82,
    "score_rank": 26,
    "companies": [],
-   "deals": []
+   "deals": [],
+   "recent_deals": [
+    {
+     "industry": "Utility (Water)",
+     "acquirer": "American Water Works",
+     "target": "Essential Utilities",
+     "value_usd_bn": null,
+     "date": "2025-10",
+     "note": "all-stock merger; combined enterprise value about $63bn",
+     "url": "https://www.essential.co/news-releases/news-release-details/american-water-and-essential-utilities-merge-leading-regulated",
+     "value_text": null
+    }
+   ],
+   "market_size": null
   }
  ]
 }

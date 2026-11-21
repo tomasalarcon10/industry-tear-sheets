@@ -23,6 +23,18 @@ for r in m["industries"]:
         if not isinstance(xl, (int, float)): bad += 1; print("NONNUM", r["industry"], xl, py); continue
         gap = abs(xl - py) / max(1.0, abs(py)); worst = max(worst, gap)
         if gap > 1e-9: bad += 1; print("MISMATCH", r["industry"], xl, py)
+    dv = [d["value_usd_bn"] for d in r["recent_deals"] if d["value_usd_bn"] is not None]
+    dsv = lambda ref: wb["Deals & market"][ref.split("!")[1]].value
+    for k, py in (("Deals listed", len(r["recent_deals"])), ("Deals with disclosed value", len(dv)),
+                  ("Total disclosed value ($bn)", sum(dv)), ("Largest deal ($bn)", max(dv) if dv else None),
+                  ("Deals of $1bn or more", sum(x >= 1 for x in dv)),
+                  ("Market size ($bn)", r["market_size"]["value_usd_bn"] if r["market_size"] else None)):
+        n += 1
+        xl = dsv(c[k])
+        if py is None:
+            if xl not in (None, ""): bad += 1; print("EXPECTED BLANK", r["industry"], k, xl)
+            continue
+        if not isinstance(xl, (int, float)) or abs(xl - py) > 1e-9: bad += 1; print("DEALS", r["industry"], k, xl, py)
     n += 1
     if v(c["Verdict"]) != r["verdict"]: bad += 1; print("VERDICT", r["industry"], v(c["Verdict"]), r["verdict"])
 print(f"checked {n} values, mismatches {bad}, worst gap {worst:.1e}")

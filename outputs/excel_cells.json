@@ -25,7 +25,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Aerospace/Defense": {
   "Verdict": "'Tear sheet'!B5",
@@ -53,7 +59,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Air Transport": {
   "Verdict": "'Tear sheet'!B5",
@@ -81,7 +93,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Apparel": {
   "Verdict": "'Tear sheet'!B5",
@@ -109,7 +127,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Auto & Truck": {
   "Verdict": "'Tear sheet'!B5",
@@ -137,7 +161,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Auto Parts": {
   "Verdict": "'Tear sheet'!B5",
@@ -165,7 +195,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Bank (Money Center)": {
   "Verdict": "'Tear sheet'!B5",
@@ -193,7 +229,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Banks (Regional)": {
   "Verdict": "'Tear sheet'!B5",
@@ -221,7 +263,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C9",
+  "Deals with disclosed value": "'Deals & market'!C10",
+  "Total disclosed value ($bn)": "'Deals & market'!C11",
+  "Largest deal ($bn)": "'Deals & market'!C12",
+  "Deals of $1bn or more": "'Deals & market'!C13",
+  "Market size ($bn)": "'Deals & market'!B16"
  },
  "Beverage (Alcoholic)": {
   "Verdict": "'Tear sheet'!B5",
@@ -249,7 +297,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Beverage (Soft)": {
   "Verdict": "'Tear sheet'!B5",
@@ -277,7 +331,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Broadcasting": {
   "Verdict": "'Tear sheet'!B5",
@@ -305,7 +365,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Brokerage & Investment Banking": {
   "Verdict": "'Tear sheet'!B5",
@@ -333,7 +399,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Building Materials": {
   "Verdict": "'Tear sheet'!B5",
@@ -361,7 +433,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Business & Consumer Services": {
   "Verdict": "'Tear sheet'!B5",
@@ -389,7 +467,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Cable TV": {
   "Verdict": "'Tear sheet'!B5",
@@ -417,7 +501,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Chemical (Basic)": {
   "Verdict": "'Tear sheet'!B5",
@@ -445,7 +535,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Chemical (Diversified)": {
   "Verdict": "'Tear sheet'!B5",
@@ -473,7 +569,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Chemical (Specialty)": {
   "Verdict": "'Tear sheet'!B5",
@@ -501,7 +603,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Coal & Related Energy": {
   "Verdict": "'Tear sheet'!B5",
@@ -529,7 +637,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Computer Services": {
   "Verdict": "'Tear sheet'!B5",
@@ -557,7 +671,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Computers/Peripherals": {
   "Verdict": "'Tear sheet'!B5",
@@ -585,7 +705,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Construction Supplies": {
   "Verdict": "'Tear sheet'!B5",
@@ -613,7 +739,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Diversified": {
   "Verdict": "'Tear sheet'!B5",
@@ -641,7 +773,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Drugs (Biotechnology)": {
   "Verdict": "'Tear sheet'!B5",
@@ -669,7 +807,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Drugs (Pharmaceutical)": {
   "Verdict": "'Tear sheet'!B5",
@@ -697,7 +841,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Education": {
   "Verdict": "'Tear sheet'!B5",
@@ -725,7 +875,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Electrical Equipment": {
   "Verdict": "'Tear sheet'!B5",
@@ -753,7 +909,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Electronics (Consumer & Office)": {
   "Verdict": "'Tear sheet'!B5",
@@ -781,7 +943,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Electronics (General)": {
   "Verdict": "'Tear sheet'!B5",
@@ -809,7 +977,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Engineering/Construction": {
   "Verdict": "'Tear sheet'!B5",
@@ -837,7 +1011,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Entertainment": {
   "Verdict": "'Tear sheet'!B5",
@@ -865,7 +1045,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Environmental & Waste Services": {
   "Verdict": "'Tear sheet'!B5",
@@ -893,7 +1079,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Farming/Agriculture": {
   "Verdict": "'Tear sheet'!B5",
@@ -921,7 +1113,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Financial Svcs. (Non-bank & Insurance)": {
   "Verdict": "'Tear sheet'!B5",
@@ -949,7 +1147,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Food Processing": {
   "Verdict": "'Tear sheet'!B5",
@@ -977,7 +1181,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Food Wholesalers": {
   "Verdict": "'Tear sheet'!B5",
@@ -1005,7 +1215,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Furn/Home Furnishings": {
   "Verdict": "'Tear sheet'!B5",
@@ -1033,7 +1249,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Green & Renewable Energy": {
   "Verdict": "'Tear sheet'!B5",
@@ -1061,7 +1283,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Healthcare Products": {
   "Verdict": "'Tear sheet'!B5",
@@ -1089,7 +1317,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Healthcare Support Services": {
   "Verdict": "'Tear sheet'!B5",
@@ -1117,7 +1351,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Heathcare Information and Technology": {
   "Verdict": "'Tear sheet'!B5",
@@ -1145,7 +1385,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Homebuilding": {
   "Verdict": "'Tear sheet'!B5",
@@ -1173,7 +1419,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Hospitals/Healthcare Facilities": {
   "Verdict": "'Tear sheet'!B5",
@@ -1201,7 +1453,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Hotel/Gaming": {
   "Verdict": "'Tear sheet'!B5",
@@ -1229,7 +1487,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Household Products": {
   "Verdict": "'Tear sheet'!B5",
@@ -1257,7 +1521,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Information Services": {
   "Verdict": "'Tear sheet'!B5",
@@ -1285,7 +1555,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Insurance (General)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1313,7 +1589,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Insurance (Life)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1341,7 +1623,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Insurance (Prop/Cas.)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1369,7 +1657,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Investments & Asset Management": {
   "Verdict": "'Tear sheet'!B5",
@@ -1397,7 +1691,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Machinery": {
   "Verdict": "'Tear sheet'!B5",
@@ -1425,7 +1725,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Metals & Mining": {
   "Verdict": "'Tear sheet'!B5",
@@ -1453,7 +1759,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Office Equipment & Services": {
   "Verdict": "'Tear sheet'!B5",
@@ -1481,7 +1793,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Oil/Gas (Integrated)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1509,7 +1827,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Oil/Gas (Production and Exploration)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1537,7 +1861,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Oil/Gas Distribution": {
   "Verdict": "'Tear sheet'!B5",
@@ -1565,7 +1895,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Oilfield Svcs/Equip.": {
   "Verdict": "'Tear sheet'!B5",
@@ -1593,7 +1929,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Packaging & Container": {
   "Verdict": "'Tear sheet'!B5",
@@ -1621,7 +1963,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Paper/Forest Products": {
   "Verdict": "'Tear sheet'!B5",
@@ -1649,7 +1997,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Power": {
   "Verdict": "'Tear sheet'!B5",
@@ -1677,7 +2031,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Precious Metals": {
   "Verdict": "'Tear sheet'!B5",
@@ -1705,7 +2065,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Publishing & Newspapers": {
   "Verdict": "'Tear sheet'!B5",
@@ -1733,7 +2099,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "R.E.I.T.": {
   "Verdict": "'Tear sheet'!B5",
@@ -1761,7 +2133,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Real Estate (Development)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1789,7 +2167,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Real Estate (General/Diversified)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1817,7 +2201,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Real Estate (Operations & Services)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1845,7 +2235,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Recreation": {
   "Verdict": "'Tear sheet'!B5",
@@ -1873,7 +2269,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Reinsurance": {
   "Verdict": "'Tear sheet'!B5",
@@ -1901,7 +2303,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Restaurant/Dining": {
   "Verdict": "'Tear sheet'!B5",
@@ -1929,7 +2337,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Retail (Automotive)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1957,7 +2371,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Retail (Building Supply)": {
   "Verdict": "'Tear sheet'!B5",
@@ -1985,7 +2405,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Retail (Distributors)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2013,7 +2439,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Retail (General)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2041,7 +2473,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Retail (Grocery and Food)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2069,7 +2507,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Retail (REITs)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2097,7 +2541,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Retail (Special Lines)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2125,7 +2575,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Rubber& Tires": {
   "Verdict": "'Tear sheet'!B5",
@@ -2153,7 +2609,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Semiconductor": {
   "Verdict": "'Tear sheet'!B5",
@@ -2181,7 +2643,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Semiconductor Equip": {
   "Verdict": "'Tear sheet'!B5",
@@ -2209,7 +2677,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Shipbuilding & Marine": {
   "Verdict": "'Tear sheet'!B5",
@@ -2237,7 +2711,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Shoe": {
   "Verdict": "'Tear sheet'!B5",
@@ -2265,7 +2745,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Software (Entertainment)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2293,7 +2779,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Software (Internet)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2321,7 +2813,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Software (System & Application)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2349,7 +2847,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C12",
+  "Deals with disclosed value": "'Deals & market'!C13",
+  "Total disclosed value ($bn)": "'Deals & market'!C14",
+  "Largest deal ($bn)": "'Deals & market'!C15",
+  "Deals of $1bn or more": "'Deals & market'!C16",
+  "Market size ($bn)": "'Deals & market'!B19"
  },
  "Steel": {
   "Verdict": "'Tear sheet'!B5",
@@ -2377,7 +2881,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Telecom (Wireless)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2405,7 +2915,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Telecom. Equipment": {
   "Verdict": "'Tear sheet'!B5",
@@ -2433,7 +2949,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Telecom. Services": {
   "Verdict": "'Tear sheet'!B5",
@@ -2461,7 +2983,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Tobacco": {
   "Verdict": "'Tear sheet'!B5",
@@ -2489,7 +3017,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C8",
+  "Deals with disclosed value": "'Deals & market'!C9",
+  "Total disclosed value ($bn)": "'Deals & market'!C10",
+  "Largest deal ($bn)": "'Deals & market'!C11",
+  "Deals of $1bn or more": "'Deals & market'!C12",
+  "Market size ($bn)": "'Deals & market'!B15"
  },
  "Transportation": {
   "Verdict": "'Tear sheet'!B5",
@@ -2517,7 +3051,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Transportation (Railroads)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2545,7 +3085,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Trucking": {
   "Verdict": "'Tear sheet'!B5",
@@ -2573,7 +3119,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Utility (General)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2601,7 +3153,13 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  },
  "Utility (Water)": {
   "Verdict": "'Tear sheet'!B5",
@@ -2629,6 +3187,12 @@
   "Revenue CAGR 5y": "'Tear sheet'!B27",
   "Expected EPS growth 5y": "'Tear sheet'!B28",
   "Beta": "'Tear sheet'!B29",
-  "Debt / capital": "'Tear sheet'!B30"
+  "Debt / capital": "'Tear sheet'!B30",
+  "Deals listed": "'Deals & market'!C7",
+  "Deals with disclosed value": "'Deals & market'!C8",
+  "Total disclosed value ($bn)": "'Deals & market'!C9",
+  "Largest deal ($bn)": "'Deals & market'!C10",
+  "Deals of $1bn or more": "'Deals & market'!C11",
+  "Market size ($bn)": "'Deals & market'!B14"
  }
 }

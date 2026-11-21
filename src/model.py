@@ -144,9 +144,14 @@ def run():
         r["score_rank"] = i
     uni = json.load(open(DATA / "universe.json"))
     deals = json.load(open(DATA / "deals.json"))
+    recent = [json.loads(l) for l in open(DATA / "recent_deals.jsonl") if l.strip()]
+    msize = {d["industry"]: d for d in (json.loads(l) for l in open(DATA / "market_size.jsonl") if l.strip())}
     for r in inds:
         r["companies"] = [c for c in uni if c["industry"] == r["industry"]]
         r["deals"] = sorted([d for d in deals if d["industry"] == r["industry"]], key=lambda d: d["announced"], reverse=True)
+        r["recent_deals"] = sorted([d for d in recent if d["industry"] == r["industry"]],
+                                   key=lambda d: (-(d["value_usd_bn"] or 0), d["date"]))
+        r["market_size"] = msize.get(r["industry"])
     vc = {v: sum(r["verdict"] == v for r in inds) for v in VERDICTS + ["Not enough data"]}
     summary = {
         "industries": len(inds), "firms": int(mk["firms"]), "market_cap_tn": mk["market_cap"] / 1e6,
@@ -155,6 +160,10 @@ def run():
         "bottom_score": [(r["industry"], r["score"]) for r in scored[-10:]],
         "with_universe_companies": sum(bool(r["companies"]) for r in inds),
         "with_deals": sum(bool(r["deals"]) for r in inds),
+        "recent_deals": sum(len(r["recent_deals"]) for r in inds),
+        "with_recent_deals": sum(bool(r["recent_deals"]) for r in inds),
+        "recent_deals_above_1bn": sum((d["value_usd_bn"] or 0) >= 1 for r in inds for d in r["recent_deals"]),
+        "with_market_size": sum(r["market_size"] is not None for r in inds),
         "largest": [(r["industry"], r["market_cap"] / 1e6) for r in sorted(inds, key=lambda r: -r["market_cap"])[:5]],
         "market_ev_ebitda_nonfin": mk_nf["ev_ebitda"], "market_pe": mk["pe"], "market_pb": mk["pb"],
         "market_cost_of_capital": mk["cost_of_capital"], "market_roic_nonfin": mk_nf["roic"],
