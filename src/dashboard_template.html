@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industry tear sheets: __N__ US industries</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  :root{--bg:#1a1a19;--card:#222220;--line:#3a3936;--text:#f0efec;--text2:#c3c2b7;--muted:#8a8980;--blue:#3987e5}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 Inter,Arial,sans-serif}
+  header{padding:22px 28px 6px} h1{margin:0;font-size:22px;font-weight:600}
+  .sub{color:var(--muted);font-size:13px;margin-top:4px;max-width:1250px}
+  .controls{display:flex;flex-wrap:wrap;gap:18px;padding:12px 28px;align-items:flex-end}
+  label{font-size:12px;color:var(--muted);display:block;margin-bottom:4px}
+  select{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 10px;font-size:14px;min-width:300px}
+  input[type=range]{width:120px;accent-color:var(--blue)}
+  button{background:var(--card);color:var(--text2);border:1px solid var(--line);border-radius:6px;padding:7px 12px;cursor:pointer}
+  .val{font-size:12px;color:var(--text2)}
+  .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:6px 28px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .kpi .l{font-size:12px;color:var(--muted)} .kpi .v{font-size:22px;font-weight:600;margin-top:2px} .kpi .s{font-size:12px;color:var(--text2)}
+  .row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:6px 28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .card h3{margin:2px 4px 6px;font-size:14px;font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  td,th{padding:4px 6px;border-bottom:1px solid var(--line);text-align:right} td:first-child,th:first-child{text-align:left;color:var(--text2)}
+  th{color:var(--muted);font-weight:500}
+  .note{padding:4px 28px;color:var(--text2);font-size:13px}
+  footer{color:var(--muted);font-size:12px;padding:10px 28px 26px;max-width:1300px}
+  @media(max-width:1000px){.grid{grid-template-columns:1fr 1fr}.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Industry tear sheets: __N__ US industries, one screen each</h1>
+  <div class="sub">Is the industry earning more than its cost of capital, and is the market already paying for it? Damodaran industry data for US-listed firms (January 2026), with the companies and deals from my universe. Re-weight the score pillars to re-rank every industry.</div>
+</header>
+<div class="controls">
+  <div><label>Industry</label><select id="ind"></select></div>
+  <div><label>Weight: returns <span class="val" id="vr"></span></label><input id="wr" type="range" min="0" max="1" step="0.05" value="0.25"></div>
+  <div><label>Weight: growth <span class="val" id="vg"></span></label><input id="wg" type="range" min="0" max="1" step="0.05" value="0.25"></div>
+  <div><label>Weight: value <span class="val" id="vv"></span></label><input id="wv" type="range" min="0" max="1" step="0.05" value="0.25"></div>
+  <div><label>Weight: risk <span class="val" id="vk"></span></label><input id="wk" type="range" min="0" max="1" step="0.05" value="0.25"></div>
+  <div><button id="reset">Equal weights</button></div>
+</div>
+<div class="grid">
+  <div class="kpi"><div class="l">Verdict</div><div class="v" id="k1"></div><div class="s" id="k1s"></div></div>
+  <div class="kpi"><div class="l">Score (current weights)</div><div class="v" id="k2"></div><div class="s" id="k2s"></div></div>
+  <div class="kpi"><div class="l">Size</div><div class="v" id="k3"></div><div class="s" id="k3s"></div></div>
+  <div class="kpi"><div class="l">Growth</div><div class="v" id="k4"></div><div class="s" id="k4s"></div></div>
+</div>
+<div class="row">
+  <div class="card"><h3>Valuation and returns</h3><div id="t1"></div></div>
+  <div class="card"><h3>Rank among industries (100 = best)</h3><div id="p1" style="height:200px"></div><div id="t2"></div></div>
+  <div class="card"><h3>Companies and deals from my universe</h3><div id="t3"></div></div>
+</div>
+<div class="row" style="grid-template-columns:1.3fr 1fr">
+  <div class="card"><h3>All industries: return spread vs relative multiple (click a bubble)</h3><div id="p2" style="height:470px"></div></div>
+  <div class="card"><h3>Ranking under the current weights</h3><div id="p3" style="height:470px"></div></div>
+</div>
+<footer>Return spread = ROIC (after tax) minus cost of capital; for financial industries ROE minus cost of equity. Relative multiple = EV/EBITDA over the median non-financial industry (P/B over the median financial industry for financials). Ranks: share of industries with a strictly lower value (reversed for multiple and beta). Verdicts: Quality at a discount (spread > 0, multiple < 1x), Quality, priced for it (spread > 0, multiple >= 1x), Cheap for a reason, Expensive without returns. Source: Damodaran Online, industry data for US firms, January 2026; companies, house ratings and deals from my comparable-companies, equity-research and precedent-transactions projects. Illustrative, not investment advice.</footer>
+<script>
+const D=__DATA__,$=id=>document.getElementById(id),I=D.inds;
+const T="#f0efec",T2="#c3c2b7",MU="#8a8980",GR="#3a3936",CARD="#222220";
+const VC={"Quality at a discount":"#199e70","Quality, priced for it":"#3987e5","Cheap for a reason":"#c98500","Expensive without returns":"#e66767","Not enough data":"#8a8980"};
+const RC={Buy:"#199e70",Hold:"#c98500",Sell:"#e66767"};
+const pc=(x,s)=>x==null?"n/a":(s&&x>=0?"+":"")+(x*100).toFixed(1)+"%",xm=x=>x==null?"n/m":x.toFixed(1)+"x";
+const bn=m=>m==null?"n/a":Math.abs(m)>=1e6?"$"+(m/1e6).toFixed(2)+"tn":Math.abs(m)>=1e3?"$"+(m/1e3).toFixed(1)+"bn":"$"+m.toFixed(0)+"m";
+const P=["returns","growth","value","risk"];
+function score(r,w){let s=0,n=0;P.forEach((k,i)=>{if(r.ranks[k]!=null){s+=w[i]*r.ranks[k];n+=w[i]}});return n>0?100*s/n:null}
+window.__score=(name,w)=>score(I.find(r=>r.industry===name),w);
+const lay=(o={})=>Object.assign({paper_bgcolor:CARD,plot_bgcolor:CARD,font:{color:T2,family:"Inter, Arial",size:11},margin:{l:60,r:20,t:10,b:40},showlegend:false},o);
+const AX=(o={})=>Object.assign({gridcolor:GR,zerolinecolor:MU,color:T2},o);
+[...I].sort((a,b)=>a.industry.localeCompare(b.industry)).forEach(r=>$("ind").add(new Option(r.industry,r.industry)));
+function W(){return ["wr","wg","wv","wk"].map(id=>+$(id).value)}
+function render(){
+  const w=W();["vr","vg","vv","vk"].forEach((id,i)=>$(id).textContent=w[i].toFixed(2));
+  const r=I.find(x=>x.industry===$("ind").value),scs=I.map(x=>({x,s:score(x,w)})).filter(a=>a.s!=null).sort((a,b)=>b.s-a.s);
+  const pos=scs.findIndex(a=>a.x===r)+1,s=score(r,w),fin=r.financial;
+  $("k1").textContent=r.verdict;$("k1").style.color=VC[r.verdict];$("k1s").textContent=`${fin?"ROE":"ROIC"} ${pc(fin?r.roe:r.roic)} vs ${pc(fin?r.cost_of_equity:r.cost_of_capital)} (spread ${pc(r.spread,1)}); multiple ${r.rel_multiple==null?"n/a":r.rel_multiple.toFixed(2)+"x"} the median`;
+  $("k2").textContent=s==null?"n/a":s.toFixed(0)+"/100";$("k2s").textContent=`#${pos} of ${scs.length} industries`;
+  $("k3").textContent=bn(r.market_cap);$("k3s").textContent=`${r.firms} firms; ${pc(r.share_of_market_cap)} of the US market (#${r.size_rank}); revenue ${bn(r.revenue)}`;
+  $("k4").textContent=pc(r.rev_cagr_5y);$("k4s").textContent=`revenue CAGR, 5 years; expected EPS growth ${pc(r.eps_growth_next5)} a year`;
+  $("t1").innerHTML=`<table><tr><th>Metric</th><th>Value</th></tr>${[["EV/EBITDA",fin?"n/m":xm(r.ev_ebitda)],["EV/Sales",fin?"n/m":xm(r.ev_sales)],["P/E",xm(r.pe)],["P/B",xm(r.pb)],["Gross margin",pc(r.gross_margin)],["Operating margin",fin?"n/m":pc(r.operating_margin)],["Net margin",pc(r.net_margin)],["ROE",pc(r.roe)],["ROIC (after tax)",fin?"n/m":pc(r.roic)],["Cost of capital / equity",pc(r.cost_of_capital)+" / "+pc(r.cost_of_equity)],["Beta",r.beta.toFixed(2)],["Debt / capital",pc(r.debt_weight)]].map(a=>`<tr><td>${a[0]}</td><td>${a[1]}</td></tr>`).join("")}</table>`;
+  const rv=P.map(k=>r.ranks[k]==null?0:100*r.ranks[k]);
+  Plotly.react("p1",[{type:"bar",orientation:"h",y:["Returns","Growth","Value","Risk"],x:rv,marker:{color:rv.map(v=>v>=66?"#199e70":v>=33?"#c98500":"#e66767")},text:rv.map(v=>v.toFixed(0)),textposition:"outside"}],
+    lay({margin:{l:70,r:30,t:5,b:25},xaxis:AX({type:"linear",range:[0,110]}),yaxis:AX({type:"category",autorange:"reversed"})}),{displayModeBar:false,responsive:true});
+  $("t2").innerHTML="";
+  $("t3").innerHTML=(r.companies.length?`<table><tr><th>Company</th><th>Mkt cap</th><th>P/E</th><th>House</th></tr>${r.companies.map(c=>`<tr><td>${c.name}</td><td>${c.market_cap_usd_bn?"$"+c.market_cap_usd_bn.toFixed(0)+"bn":"n/a"}</td><td>${c.pe&&c.pe>0?c.pe.toFixed(1)+"x":"n/m"}</td><td style="color:${RC[c.house_rating]}">${c.house_rating}</td></tr>`).join("")}</table>`:"<p class='sub'>None of the 85 companies is in this industry.</p>")+
+    (r.deals.length?`<table style="margin-top:10px"><tr><th>Deal</th><th>Year</th><th>Equity</th><th>Premium</th></tr>${r.deals.map(d=>`<tr><td>${d.acquirer} / ${d.target}</td><td>${d.announced.slice(0,4)}</td><td>${bn(d.equity_value_m)}</td><td>${pc(d.premium)}</td></tr>`).join("")}</table>`:"<p class='sub'>No deal in the 43-deal database.</p>");
+  const pts=I.filter(x=>x.spread!=null&&x.rel_multiple!=null);
+  Plotly.react("p2",Object.keys(VC).map(v=>{const sub=pts.filter(x=>x.verdict===v);return {type:"scatter",mode:"markers",name:v,x:sub.map(x=>Math.min(Math.max(x.rel_multiple,0.1),5)),y:sub.map(x=>Math.min(Math.max(x.spread,-0.25),0.6)*100),text:sub.map(x=>x.industry),
+    marker:{color:VC[v],size:sub.map(x=>6+30*Math.sqrt(x.market_cap/7.9e6)),opacity:sub.map(x=>x===r?1:0.6),line:{color:sub.map(x=>x===r?T:CARD),width:sub.map(x=>x===r?3:1)}},hovertemplate:"%{text}<br>%{x:.2f}x | %{y:+.1f} pp<extra></extra>"}}),
+    lay({showlegend:true,legend:{orientation:"h",y:1.1,font:{size:10}},xaxis:AX({type:"log",title:"relative multiple (log)",tickvals:[0.25,0.5,1,2,4],ticktext:["0.25x","0.5x","1x","2x","4x"]}),yaxis:AX({type:"linear",title:"return spread, pp"}),
+    shapes:[{type:"line",x0:1,x1:1,yref:"paper",y0:0,y1:1,line:{color:MU,dash:"dot"}},{type:"line",xref:"paper",x0:0,x1:1,y0:0,y1:0,line:{color:MU,dash:"dot"}}]}),{displayModeBar:false,responsive:true});
+  const top=scs.slice(0,25).reverse();
+  Plotly.react("p3",[{type:"bar",orientation:"h",y:top.map(a=>a.x.industry),x:top.map(a=>a.s),marker:{color:top.map(a=>a.x===r?T:VC[a.x.verdict])},text:top.map(a=>a.s.toFixed(0)),textposition:"outside",hovertemplate:"%{y}: %{x:.1f}<extra></extra>"}],
+    lay({margin:{l:220,r:30,t:5,b:30},xaxis:AX({type:"linear",range:[0,105]}),yaxis:AX({type:"category",tickfont:{size:10}})}),{displayModeBar:false,responsive:true});
+}
+["wr","wg","wv","wk"].forEach(id=>$(id).addEventListener("input",render));$("ind").addEventListener("change",render);
+$("reset").addEventListener("click",()=>{["wr","wg","wv","wk"].forEach(id=>$(id).value=0.25);render()});
+$("ind").value=D.featured;render();
+$("p2").on("plotly_click",e=>{$("ind").value=e.points[0].text;render()});
+</script>
+</body>
+</html>

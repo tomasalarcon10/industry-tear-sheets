@@ -1,0 +1,8 @@
+numpy
+plotly
+kaleido
+openpyxl
+pytest
+reportlab
+matplotlib
+pypdf
